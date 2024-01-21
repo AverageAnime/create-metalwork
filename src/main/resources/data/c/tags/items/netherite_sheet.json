@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:netherite_sheet",
-      "required": false
-    }
-  ]
-}

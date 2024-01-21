@@ -30,8 +30,6 @@ public class CreateMetalwork implements ModInitializer {
 						.icon(() -> new ItemStack(ModItems.ICON))
 						.entries(((displayContext, entries) -> {
 							entries.add(ModItems.CRUSHEDNETHERITESCRAP);
-							entries.add(ModItems.NETHERITESHEET);
-							entries.add(ModItems.POLISHEDNETHERITESHEET);
 						}))
 						.build());
 

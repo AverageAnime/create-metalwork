@@ -11,8 +11,6 @@ public class ModItems {
 
     public static final Item ICON = registerItem("icon", new Item(new FabricItemSettings()));
     public static final Item CRUSHEDNETHERITESCRAP = registerItem("crushed_netherite_scrap", new Item(new FabricItemSettings()));
-    public static final Item NETHERITESHEET = registerItem("netherite_sheet", new Item(new FabricItemSettings()));
-    public static final Item POLISHEDNETHERITESHEET = registerItem("polished_netherite_sheet", new Item(new FabricItemSettings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, name), item);
