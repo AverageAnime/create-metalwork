@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "tag": "c:netherite_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmetalwork:polished_netherite_sheet"
+    }
+  ]
+}

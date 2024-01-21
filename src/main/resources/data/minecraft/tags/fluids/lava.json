@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_iron",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_iron",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_copper",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_copper",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_gold",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_gold",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_netherite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_netherite",
+      "required": false
+    }
+  ]
+}

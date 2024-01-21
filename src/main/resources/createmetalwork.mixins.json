@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.averageanime.createmetalwork.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BackgroundRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "createmetalwork-refmap.json"
+}

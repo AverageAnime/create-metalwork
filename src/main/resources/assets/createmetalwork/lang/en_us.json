@@ -1,0 +1,19 @@
+{
+  "itemgroup.createmetalwork": "Create: Metalwork",
+  "item.createmetalwork.icon": "Create: Metalwork",
+
+  "block.createmetalwork.molten_iron_block": "Molten Iron",
+  "block.createmetalwork.molten_copper_block": "Molten Copper",
+  "block.createmetalwork.molten_gold_block": "Molten Gold",
+  "block.createmetalwork.molten_netherite_block": "Molten Netherite",
+
+  "item.createmetalwork.molten_iron_bucket": "Molten Iron Bucket",
+  "item.createmetalwork.molten_copper_bucket": "Molten Copper Bucket",
+  "item.createmetalwork.molten_gold_bucket": "Molten Gold Bucket",
+  "item.createmetalwork.molten_netherite_bucket": "Molten Netherite Bucket",
+
+  "item.createmetalwork.crushed_netherite_scrap": "Crushed Netherite Scrap",
+  "item.createmetalwork.netherite_sheet": "Netherite Sheet",
+  "item.createmetalwork.polished_netherite_sheet": "Polished Netherite Sheet"
+
+}

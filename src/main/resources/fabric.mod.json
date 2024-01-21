@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "createmetalwork",
+	"version": "1.0.0",
+	"name": "Create: Metalwork",
+	"description": "An Addon for Create.",
+	"authors": [
+		"average_anime"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "GPLv3",
+	"icon": "assets/createmetalwork/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.averageanime.createmetalwork.CreateMetalwork"
+		],
+		"client": [
+			"net.averageanime.createmetalwork.CreateMetalworkClient"
+		],
+		"fabric-datagen": [
+			"net.averageanime.createmetalwork.CreateMetalworkDataGenerator"
+		]
+	},
+	"mixins": [
+      "createmetalwork.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+
+	},
+	"suggests": {
+		"": "*"
+	}
+}
