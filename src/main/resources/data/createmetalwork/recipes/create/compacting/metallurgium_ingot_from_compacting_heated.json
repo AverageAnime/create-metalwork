@@ -9,7 +9,7 @@
     }
   ],
   "type":"create:compacting",
-  "heatRequirement":"heated",
+  "heatRequirement":"superheated",
   "ingredients":[
     {
       "tag":"c:crushed_unobtainium"

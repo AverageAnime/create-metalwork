@@ -9,7 +9,7 @@
     }
   ],
   "type":"create:compacting",
-  "heatRequirement":"heated",
+  "heatRequirement":"superheated",
   "ingredients":[
     {
       "tag":"c:adamantite_dusts"
@@ -24,7 +24,7 @@
   "results":[
     {
       "count": 2,
-      "item":"mythicmetals:celestium_ingot"
+      "item":"mythicmetals:hallowed_ingot"
     }
   ]
 }
