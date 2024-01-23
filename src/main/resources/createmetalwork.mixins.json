@@ -10,5 +10,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "refmap": "createmetalwork-refmap.json"
+  "refmap": "create-metalwork-refmap.json"
 }
