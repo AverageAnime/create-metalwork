@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:starrite_dusts"
+    },
+    {
+      "tag":"c:platinum_dusts"
+    }
+  ],
+  "results":[
+    {
+      "item":"mythicmetals:star_platinum"
+    }
+  ]
+}

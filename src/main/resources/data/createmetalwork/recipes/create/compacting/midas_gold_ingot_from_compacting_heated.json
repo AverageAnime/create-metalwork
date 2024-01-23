@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:midas_gold_ores"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:midas_gold_dusts"
+    }
+  ],
+  "results":[
+    {
+      "item":"mythicmetals:midas_gold_ingot"
+    }
+  ]
+}

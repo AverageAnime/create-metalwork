@@ -42,10 +42,6 @@ public class CreateMetalwork implements ModInitializer {
 			ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
 				entries.add(CRUSHEDRAWBANGLUM);
 			});
-			final Item CRUSHEDRAWBRONZE = registerItem("crushed_raw_bronze", new Item(new FabricItemSettings()));
-			ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
-				entries.add(CRUSHEDRAWBRONZE);
-			});
 			final Item CRUSHEDRAWCARMOT = registerItem("crushed_raw_carmot", new Item(new FabricItemSettings()));
 			ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
 				entries.add(CRUSHEDRAWCARMOT);

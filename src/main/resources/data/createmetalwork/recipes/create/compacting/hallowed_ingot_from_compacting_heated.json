@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:adamantite_dusts"
+    },
+    {
+      "tag":"c:mythril_dusts"
+    },
+    {
+      "tag":"c:orichalcum_dusts"
+    }
+  ],
+  "results":[
+    {
+      "item":"mythicmetals:celestium_ingot"
+    }
+  ]
+}

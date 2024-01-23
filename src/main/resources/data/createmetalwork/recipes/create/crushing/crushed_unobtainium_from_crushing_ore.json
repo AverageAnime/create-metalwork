@@ -19,17 +19,20 @@
       "tag": "c:unobtainium_ores"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 700,
   "results": [
     {
       "item": "createmetalwork:crushed_unobtainium"
     },
     {
-      "chance": 0.75,
+      "chance": 0.55,
       "item": "createmetalwork:crushed_unobtainium"
     },
     {
-      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.55,
       "item": "create:experience_nugget"
     }
   ]

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:crushed_raw_tin",
+      "required": false
+    }
+  ]
+}

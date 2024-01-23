@@ -26,7 +26,6 @@ public class ModFluids {
             STILL_MOLTEN_ADAMANTITE,
             STILL_MOLTEN_AQUARIUM,
             STILL_MOLTEN_BANGLUM,
-            STILL_MOLTEN_BRONZE,
             STILL_MOLTEN_CARMOT,
             STILL_MOLTEN_KYBER,
             STILL_MOLTEN_MANGANESE,
@@ -53,7 +52,6 @@ public class ModFluids {
             FLOWING_MOLTEN_ADAMANTITE,
             FLOWING_MOLTEN_AQUARIUM,
             FLOWING_MOLTEN_BANGLUM,
-            FLOWING_MOLTEN_BRONZE,
             FLOWING_MOLTEN_CARMOT,
             FLOWING_MOLTEN_KYBER,
             FLOWING_MOLTEN_MANGANESE,
@@ -80,7 +78,6 @@ public class ModFluids {
             MOLTEN_ADAMANTITE_BLOCK,
             MOLTEN_AQUARIUM_BLOCK,
             MOLTEN_BANGLUM_BLOCK,
-            MOLTEN_BRONZE_BLOCK,
             MOLTEN_CARMOT_BLOCK,
             MOLTEN_KYBER_BLOCK,
             MOLTEN_MANGANESE_BLOCK,
@@ -107,7 +104,6 @@ public class ModFluids {
             MOLTEN_ADAMANTITE_BUCKET,
             MOLTEN_AQUARIUM_BUCKET,
             MOLTEN_BANGLUM_BUCKET,
-            MOLTEN_BRONZE_BUCKET,
             MOLTEN_CARMOT_BUCKET,
             MOLTEN_KYBER_BUCKET,
             MOLTEN_MANGANESE_BUCKET,
@@ -149,9 +145,6 @@ public class ModFluids {
     }
     public static boolean isMoltenBanglum(FluidState state) {
         return state.isOf(ModFluids.STILL_MOLTEN_BANGLUM) || state.isOf(ModFluids.FLOWING_MOLTEN_BANGLUM);
-    }
-    public static boolean isMoltenBronze(FluidState state) {
-        return state.isOf(ModFluids.STILL_MOLTEN_BRONZE) || state.isOf(ModFluids.FLOWING_MOLTEN_BRONZE);
     }
     public static boolean isMoltenCarmot(FluidState state) {
         return state.isOf(ModFluids.STILL_MOLTEN_CARMOT) || state.isOf(ModFluids.FLOWING_MOLTEN_CARMOT);
@@ -302,19 +295,6 @@ public class ModFluids {
                     });
             MOLTEN_BANGLUM_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_banglum_bucket"),
                     new BucketItem(ModFluids.STILL_MOLTEN_BANGLUM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
-
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
-                entries.add(MOLTEN_BRONZE_BUCKET);
-            });
-            STILL_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
-                    new Identifier(CreateMetalwork.MOD_ID, "molten_bronze"), new MoltenBronzeFluid.Still());
-            FLOWING_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
-                    new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_bronze"), new MoltenBronzeFluid.Flowing());
-            MOLTEN_BRONZE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_block"),
-                    new FluidBlock(ModFluids.STILL_MOLTEN_BRONZE, FabricBlockSettings.copyOf(Blocks.LAVA)) {
-                    });
-            MOLTEN_BRONZE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_bucket"),
-                    new BucketItem(ModFluids.STILL_MOLTEN_BRONZE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
             ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
                 entries.add(MOLTEN_CARMOT_BUCKET);

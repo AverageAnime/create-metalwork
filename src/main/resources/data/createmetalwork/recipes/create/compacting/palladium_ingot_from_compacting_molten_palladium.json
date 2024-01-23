@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:palladium_ores"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount":9000,
+      "fluid":"createmetalwork:molten_palladium"
+    }
+  ],
+  "results":[
+    {
+      "item":"mythicmetals:palladium_ingot"
+    }
+  ]
+}

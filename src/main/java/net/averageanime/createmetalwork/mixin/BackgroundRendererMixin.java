@@ -74,11 +74,6 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 76 / 255;
             blue = (float) 24 / 255;
         }
-        if (ModFluids.isMoltenBronze(state)) {
-            red = (float) 146 / 255;
-            green = (float) 76 / 255;
-            blue = (float) 24 / 255;
-        }
         if (ModFluids.isMoltenCarmot(state)) {
             red = (float) 236 / 255;
             green = (float) 71 / 255;
@@ -209,11 +204,6 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             ci.cancel();
         }
         if (ModFluids.isMoltenBanglum(state)) {
-            RenderSystem.setShaderFogStart(-1);
-            RenderSystem.setShaderFogEnd(1);
-            ci.cancel();
-        }
-        if (ModFluids.isMoltenBronze(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();

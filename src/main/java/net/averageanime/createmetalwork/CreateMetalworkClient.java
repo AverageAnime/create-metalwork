@@ -49,10 +49,6 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_banglum_still"),
                 new Identifier("createmetalwork:block/molten_banglum_flow")
         ));
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_BRONZE, ModFluids.FLOWING_MOLTEN_BRONZE, new SimpleFluidRenderHandler(
-                new Identifier("createmetalwork:block/molten_bronze_still"),
-                new Identifier("createmetalwork:block/molten_bronze_flow")
-        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_CARMOT, ModFluids.FLOWING_MOLTEN_CARMOT, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_carmot_still"),
                 new Identifier("createmetalwork:block/molten_carmot_flow")

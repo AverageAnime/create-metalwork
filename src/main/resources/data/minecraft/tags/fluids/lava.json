@@ -200,6 +200,14 @@
     {
       "id": "createmetalwork:molten_netherite",
       "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_zinc",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_zinc",
+      "required": false
     }
   ]
 }

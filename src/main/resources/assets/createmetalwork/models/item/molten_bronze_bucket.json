@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-  "layer0": "createmetalwork:item/molten_bronze_bucket"
-  }
-}

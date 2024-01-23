@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:morkite_ores"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:morkite_dusts"
+    }
+  ],
+  "results":[
+    {
+      "amount":18000,
+      "fluid":"createmetalwork:molten_morkite"
+    }
+  ]
+}
