@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:crushed_starrite",
+      "required": false
+    }
+  ]
+}

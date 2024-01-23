@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:morkite_ores"
+      ]
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:morkite_ores"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "createmetalwork:crushed_morkite"
+    },
+    {
+      "chance": 0.75,
+      "item": "createmetalwork:crushed_morkite"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
