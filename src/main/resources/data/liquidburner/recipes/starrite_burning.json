@@ -1,0 +1,6 @@
+{
+  "type": "liquidburner:liquidburning",
+  "fluid": "createmetalwork:molten_starrite",
+  "burntime": "20000",
+  "superheattime" : "40000"
+}
