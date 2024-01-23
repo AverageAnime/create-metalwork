@@ -3,25 +3,27 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "mythicmetals"
+        "create"
       ]
     }
   ],
   "type":"create:compacting",
+  "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":9000,
-      "fluid":"createmetalwork:molten_quadrillum"
+      "tag":"c:copper_dusts"
     },
     {
-      "amount":9000,
-      "fluid":"createmetalwork:molten_kyber"
+      "tag":"c:copper_dusts"
+    },
+    {
+      "tag":"c:zinc_dusts"
     }
   ],
   "results":[
     {
-      "item":"mythicmetals:durasteel_ingot"
+      "count": 6,
+      "item":"create:brass_ingot"
     }
   ]
 }

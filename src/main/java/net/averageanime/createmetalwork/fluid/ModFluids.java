@@ -23,6 +23,7 @@ public class ModFluids {
             STILL_MOLTEN_COPPER,
             STILL_MOLTEN_GOLD,
             STILL_MOLTEN_NETHERITE,
+            STILL_MOLTEN_ZINC,
             STILL_MOLTEN_ADAMANTITE,
             STILL_MOLTEN_AQUARIUM,
             STILL_MOLTEN_BANGLUM,
@@ -49,6 +50,7 @@ public class ModFluids {
             FLOWING_MOLTEN_COPPER,
             FLOWING_MOLTEN_GOLD,
             FLOWING_MOLTEN_NETHERITE,
+            FLOWING_MOLTEN_ZINC,
             FLOWING_MOLTEN_ADAMANTITE,
             FLOWING_MOLTEN_AQUARIUM,
             FLOWING_MOLTEN_BANGLUM,
@@ -75,6 +77,7 @@ public class ModFluids {
             MOLTEN_COPPER_BLOCK,
             MOLTEN_GOLD_BLOCK,
             MOLTEN_NETHERITE_BLOCK,
+            MOLTEN_ZINC_BLOCK,
             MOLTEN_ADAMANTITE_BLOCK,
             MOLTEN_AQUARIUM_BLOCK,
             MOLTEN_BANGLUM_BLOCK,
@@ -101,6 +104,7 @@ public class ModFluids {
             MOLTEN_COPPER_BUCKET,
             MOLTEN_GOLD_BUCKET,
             MOLTEN_NETHERITE_BUCKET,
+            MOLTEN_ZINC_BUCKET,
             MOLTEN_ADAMANTITE_BUCKET,
             MOLTEN_AQUARIUM_BUCKET,
             MOLTEN_BANGLUM_BUCKET,
@@ -136,6 +140,12 @@ public class ModFluids {
     public static boolean isMoltenNetherite(FluidState state) {
         return state.isOf(ModFluids.STILL_MOLTEN_NETHERITE) || state.isOf(ModFluids.FLOWING_MOLTEN_NETHERITE);
     }
+
+// Create
+    public static boolean isMoltenZinc(FluidState state) {
+        return state.isOf(ModFluids.STILL_MOLTEN_ZINC) || state.isOf(ModFluids.FLOWING_MOLTEN_ZINC);
+    }
+
 // Mythic Metals
     public static boolean isMoltenAdamantite(FluidState state) {
         return state.isOf(ModFluids.STILL_MOLTEN_ADAMANTITE) || state.isOf(ModFluids.FLOWING_MOLTEN_ADAMANTITE);
@@ -253,6 +263,22 @@ public class ModFluids {
                 });
         MOLTEN_NETHERITE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_netherite_bucket"),
                 new BucketItem(ModFluids.STILL_MOLTEN_NETHERITE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+// Create
+        if (FabricLoader.getInstance().isModLoaded("create")) {
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> {
+                entries.add(MOLTEN_ZINC_BUCKET);
+            });
+            STILL_MOLTEN_ZINC = Registry.register(Registries.FLUID,
+                    new Identifier(CreateMetalwork.MOD_ID, "molten_zinc"), new MoltenZincFluid.Still());
+            FLOWING_MOLTEN_ZINC = Registry.register(Registries.FLUID,
+                    new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_zinc"), new MoltenZincFluid.Flowing());
+            MOLTEN_ZINC_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_zinc_block"),
+                    new FluidBlock(ModFluids.STILL_MOLTEN_ZINC, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                    });
+            MOLTEN_ZINC_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_zinc_bucket"),
+                    new BucketItem(ModFluids.STILL_MOLTEN_ZINC, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+        }
 
 // Mythic Metals
 

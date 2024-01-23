@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:adamantite_ores"
+        "c:stormyx_ores"
       ]
     }
   ],
@@ -17,12 +17,12 @@
   "ingredients":[
     {
       "amount":9000,
-      "fluid":"createmetalwork:molten_adamantite"
+      "fluid":"createmetalwork:molten_stormyx"
     }
   ],
   "results":[
     {
-      "item":"mythicmetals:adamantite_ingot"
+      "item":"mythicmetals:stormyx_ingot"
     }
   ]
 }

@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
   "type": "create:crushing",
   "ingredients": [
     {
@@ -15,6 +23,10 @@
       "item": "createmetalwork:crushed_netherite_scrap"
     },
     {
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.50,
       "item": "create:experience_nugget"
     }
   ]

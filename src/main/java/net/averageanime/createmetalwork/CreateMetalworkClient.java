@@ -35,6 +35,13 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 0x654740
         ));
 
+// Create
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ZINC, ModFluids.FLOWING_MOLTEN_ZINC, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_zinc_still"),
+                new Identifier("createmetalwork:block/molten_zinc_flow")
+        ));
+
 // Mythic Metals
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ADAMANTITE, ModFluids.FLOWING_MOLTEN_ADAMANTITE, new SimpleFluidRenderHandler(

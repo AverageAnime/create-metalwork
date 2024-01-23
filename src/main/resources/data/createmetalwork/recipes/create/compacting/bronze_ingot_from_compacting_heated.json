@@ -20,11 +20,15 @@
       "tag":"c:copper_dusts"
     },
     {
+      "tag":"c:copper_dusts"
+    },
+    {
       "tag":"c:tin_dusts"
     }
   ],
   "results":[
     {
+      "count": 4,
       "item":"mythicmetals:bronze_ingot"
     }
   ]

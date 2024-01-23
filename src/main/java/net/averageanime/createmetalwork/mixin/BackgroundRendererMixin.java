@@ -57,6 +57,14 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             blue = (float) 64 / 255;
         }
 
+// Create
+
+        if (ModFluids.isMoltenZinc(state)) {
+            red = (float) 140 / 255;
+            green = (float) 200 / 255;
+            blue = (float) 140 / 255;
+        }
+
 // Mythic Metals
 
         if (ModFluids.isMoltenAdamantite(state)) {
@@ -186,6 +194,14 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             ci.cancel();
         }
         if (ModFluids.isMoltenNetherite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+// Create
+
+        if (ModFluids.isMoltenZinc(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
