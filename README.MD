@@ -8,10 +8,11 @@ Create: Metalwork [Fabric] is an add-on for [Create](https://www.curseforge.com/
 * New ways to craft ingots.
     * ~2x more ingots than vanilla smelting!
 * New molten versions of ores.
-* New crushed raw ores.
+* New crushed ores.
 
 ### **Supported Mod(s):**
 * [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)
+* [Liquid Burner](https://www.curseforge.com/minecraft/mc-mods/liquid-burner)
 
 ### **Credits:**
 
