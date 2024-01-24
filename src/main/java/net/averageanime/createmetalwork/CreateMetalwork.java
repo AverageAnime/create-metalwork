@@ -6,7 +6,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -28,6 +30,14 @@ public class CreateMetalwork implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
+				.displayName(Text.translatable("itemgroup.createmetalwork"))
+				.icon(() -> new ItemStack(ModItems.ICON))
+				.entries(((displayContext, entries) -> {
+					entries.add(ModItems.CRUSHEDNETHERITESCRAP);
+				}))
+				.build());
 
 		if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
 			final Item CRUSHEDRAWADAMANTITE = registerItem("crushed_raw_adamantite", new Item(new FabricItemSettings()));
@@ -100,16 +110,9 @@ public class CreateMetalwork implements ModInitializer {
 			});
 		}
 
-				Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
-						.displayName(Text.translatable("itemgroup.createmetalwork"))
-						.icon(() -> new ItemStack(ModItems.ICON))
-						.entries(((displayContext, entries) -> {
-							entries.add(ModItems.CRUSHEDNETHERITESCRAP);
-						}))
-						.build());
-
 		ModItems.registerModItems();
 		register();
+
 	}
 }
 
