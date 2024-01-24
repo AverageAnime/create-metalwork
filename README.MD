@@ -10,7 +10,7 @@ Create: Metalwork [Fabric] is an add-on for [Create](https://www.curseforge.com/
 * New molten versions of ores.
 * New crushed raw ores.
 
-### **Supported Mods:**
+### **Supported Mod(s):**
 * [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)
 
 ### **Credits:**
