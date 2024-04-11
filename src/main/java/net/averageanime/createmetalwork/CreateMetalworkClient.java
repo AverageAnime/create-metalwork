@@ -30,9 +30,9 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_gold_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_NETHERITE, ModFluids.FLOWING_MOLTEN_NETHERITE, new SimpleFluidRenderHandler(
-                new Identifier("createmetalwork:block/molten_ore_still"),
-                new Identifier("createmetalwork:block/molten_ore_flow"),
-                0x654740
+                new Identifier("createmetalwork:block/molten_netherite_still"),
+                new Identifier("createmetalwork:block/molten_netherite_flow")
+
         ));
 
 // Create
