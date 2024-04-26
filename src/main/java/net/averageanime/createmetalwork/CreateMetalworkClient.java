@@ -14,12 +14,11 @@ public class CreateMetalworkClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-
 // Vanilla Materials
 
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_IRON, ModFluids.FLOWING_MOLTEN_IRON, new SimpleFluidRenderHandler(
-                new Identifier("createmetalwork:block/molten_iron_still"),
-                new Identifier("createmetalwork:block/molten_iron_flow")
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ANDESITE, ModFluids.FLOWING_MOLTEN_ANDESITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_andesite_still"),
+                new Identifier("createmetalwork:block/molten_andesite_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_COPPER, ModFluids.FLOWING_MOLTEN_COPPER, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_copper_still"),
@@ -29,6 +28,10 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_gold_still"),
                 new Identifier("createmetalwork:block/molten_gold_flow")
         ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_IRON, ModFluids.FLOWING_MOLTEN_IRON, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_iron_still"),
+                new Identifier("createmetalwork:block/molten_iron_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_NETHERITE, ModFluids.FLOWING_MOLTEN_NETHERITE, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_netherite_still"),
                 new Identifier("createmetalwork:block/molten_netherite_flow")
@@ -37,9 +40,32 @@ public class CreateMetalworkClient implements ClientModInitializer {
 
 // Create
 
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ANDESITE_ALLOY, ModFluids.FLOWING_MOLTEN_ANDESITE_ALLOY, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_andesite_alloy_still"),
+                new Identifier("createmetalwork:block/molten_andesite_alloy_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_BRASS, ModFluids.FLOWING_MOLTEN_BRASS, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_brass_still"),
+                new Identifier("createmetalwork:block/molten_brass_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ZINC, ModFluids.FLOWING_MOLTEN_ZINC, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_zinc_still"),
                 new Identifier("createmetalwork:block/molten_zinc_flow")
+        ));
+
+// Ad Astra
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_CALORITE, ModFluids.FLOWING_MOLTEN_CALORITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_calorite_still"),
+                new Identifier("createmetalwork:block/molten_calorite_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_DESH, ModFluids.FLOWING_MOLTEN_DESH, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_desh_still"),
+                new Identifier("createmetalwork:block/molten_desh_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_OSTRUM, ModFluids.FLOWING_MOLTEN_OSTRUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_ostrum_still"),
+                new Identifier("createmetalwork:block/molten_ostrum_flow")
         ));
 
 // Mythic Metals
@@ -56,17 +82,41 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_banglum_still"),
                 new Identifier("createmetalwork:block/molten_banglum_flow")
         ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_BRONZE, ModFluids.FLOWING_MOLTEN_BRONZE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_bronze_still"),
+                new Identifier("createmetalwork:block/molten_bronze_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_CARMOT, ModFluids.FLOWING_MOLTEN_CARMOT, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_carmot_still"),
                 new Identifier("createmetalwork:block/molten_carmot_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_CELESTIUM, ModFluids.FLOWING_MOLTEN_CELESTIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_celestium_still"),
+                new Identifier("createmetalwork:block/molten_celestium_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_DURASTEEL, ModFluids.FLOWING_MOLTEN_DURASTEEL, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_durasteel_still"),
+                new Identifier("createmetalwork:block/molten_durasteel_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_HALLOWED, ModFluids.FLOWING_MOLTEN_HALLOWED, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_hallowed_still"),
+                new Identifier("createmetalwork:block/molten_hallowed_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_KYBER, ModFluids.FLOWING_MOLTEN_KYBER, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_kyber_still"),
                 new Identifier("createmetalwork:block/molten_kyber_flow")
         ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_KYRMOT, ModFluids.FLOWING_MOLTEN_KYRMOT, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_kyrmot_still"),
+                new Identifier("createmetalwork:block/molten_kyrmot_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_MANGANESE, ModFluids.FLOWING_MOLTEN_MANGANESE, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_manganese_still"),
                 new Identifier("createmetalwork:block/molten_manganese_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_METALLURGIUM, ModFluids.FLOWING_MOLTEN_METALLURGIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_metallurgium_still"),
+                new Identifier("createmetalwork:block/molten_metallurgium_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_MIDAS_GOLD, ModFluids.FLOWING_MOLTEN_MIDAS_GOLD, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_midas_gold_still"),
@@ -76,9 +126,17 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_morkite_still"),
                 new Identifier("createmetalwork:block/molten_morkite_flow")
         ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_MYTHANTITE, ModFluids.FLOWING_MOLTEN_MYTHANTITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_mythantite_still"),
+                new Identifier("createmetalwork:block/molten_mythantite_flow")
+        ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_MYTHRIL, ModFluids.FLOWING_MOLTEN_MYTHRIL, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_mythril_still"),
                 new Identifier("createmetalwork:block/molten_mythril_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ORICHADIUM, ModFluids.FLOWING_MOLTEN_ORICHADIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_orichadium_still"),
+                new Identifier("createmetalwork:block/molten_orichadium_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ORICHALCUM, ModFluids.FLOWING_MOLTEN_ORICHALCUM, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_orichalcum_still"),
@@ -112,13 +170,21 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_silver_still"),
                 new Identifier("createmetalwork:block/molten_silver_flow")
         ));
-        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_STORMYX, ModFluids.FLOWING_MOLTEN_STORMYX, new SimpleFluidRenderHandler(
-                new Identifier("createmetalwork:block/molten_stormyx_still"),
-                new Identifier("createmetalwork:block/molten_stormyx_flow")
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_STAR_PLATINUM, ModFluids.FLOWING_MOLTEN_STAR_PLATINUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_star_platinum_still"),
+                new Identifier("createmetalwork:block/molten_star_platinum_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_STARRITE, ModFluids.FLOWING_MOLTEN_STARRITE, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_starrite_still"),
                 new Identifier("createmetalwork:block/molten_starrite_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_STEEL, ModFluids.FLOWING_MOLTEN_STEEL, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_steel_still"),
+                new Identifier("createmetalwork:block/molten_steel_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_STORMYX, ModFluids.FLOWING_MOLTEN_STORMYX, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_stormyx_still"),
+                new Identifier("createmetalwork:block/molten_stormyx_flow")
         ));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_TIN, ModFluids.FLOWING_MOLTEN_TIN, new SimpleFluidRenderHandler(
                 new Identifier("createmetalwork:block/molten_tin_still"),

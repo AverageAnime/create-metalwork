@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:molten_bronze_bucket",
+      "required": false
+    }
+  ]
+}

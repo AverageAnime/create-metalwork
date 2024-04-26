@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:molten_metallurgium_bucket",
+      "required": false
+    }
+  ]
+}

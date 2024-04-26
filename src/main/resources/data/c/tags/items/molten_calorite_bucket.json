@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:molten_calorite_bucket",
+      "required": false
+    }
+  ]
+}

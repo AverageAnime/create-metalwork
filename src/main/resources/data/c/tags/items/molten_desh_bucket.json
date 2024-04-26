@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:molten_desh_bucket",
+      "required": false
+    }
+  ]
+}

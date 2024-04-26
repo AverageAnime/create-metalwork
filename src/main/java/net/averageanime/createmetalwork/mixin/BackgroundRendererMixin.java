@@ -36,6 +36,11 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
 // Vanilla Materials
 
+        if (ModFluids.isMoltenAndesite(state)) {
+            red = (float) 83 / 255;
+            green = (float) 91 / 255;
+            blue = (float) 85 / 255;
+        }
         if (ModFluids.isMoltenIron(state)) {
             red = (float) 240 / 255;
             green = (float) 190 / 255;
@@ -58,11 +63,38 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
         }
 
 // Create
-
+        if (ModFluids.isMoltenAndesiteAlloy(state)) {
+            red = (float) 83 / 255;
+            green = (float) 91 / 255;
+            blue = (float) 85 / 255;
+        }
+        if (ModFluids.isMoltenBrass(state)) {
+            red = (float) 255 / 255;
+            green = (float) 205 / 255;
+            blue = (float) 91 / 255;
+        }
         if (ModFluids.isMoltenZinc(state)) {
             red = (float) 140 / 255;
             green = (float) 200 / 255;
             blue = (float) 140 / 255;
+        }
+
+// Ad Astra
+
+        if (ModFluids.isMoltenCalorite(state)) {
+            red = (float) 176 / 255;
+            green = (float) 77 / 255;
+            blue = (float) 123 / 255;
+        }
+        if (ModFluids.isMoltenDesh(state)) {
+            red = (float) 255 / 255;
+            green = (float) 87 / 255;
+            blue = (float) 57 / 255;
+        }
+        if (ModFluids.isMoltenOstrum(state)) {
+            red = (float) 110 / 255;
+            green = (float) 73 / 255;
+            blue = (float) 113 / 255;
         }
 
 // Mythic Metals
@@ -82,12 +114,37 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 76 / 255;
             blue = (float) 24 / 255;
         }
+        if (ModFluids.isMoltenBronze(state)) {
+            red = (float) 255 / 255;
+            green = (float) 205 / 255;
+            blue = (float) 91 / 255;
+        }
         if (ModFluids.isMoltenCarmot(state)) {
             red = (float) 236 / 255;
             green = (float) 71 / 255;
             blue = (float) 134 / 255;
         }
+        if (ModFluids.isMoltenCelestium(state)) {
+            red = (float) 30 / 255;
+            green = (float) 15 / 255;
+            blue = (float) 90 / 255;
+        }
+        if (ModFluids.isMoltenDurasteel(state)) {
+            red = (float) 33 / 255;
+            green = (float) 30 / 255;
+            blue = (float) 21 / 255;
+        }
+        if (ModFluids.isMoltenHallowed(state)) {
+            red = (float) 255 / 255;
+            green = (float) 205 / 255;
+            blue = (float) 91 / 255;
+        }
         if (ModFluids.isMoltenKyber(state)) {
+            red = (float) 165 / 255;
+            green = (float) 92 / 255;
+            blue = (float) 234 / 255;
+        }
+        if (ModFluids.isMoltenKyrmot(state)) {
             red = (float) 165 / 255;
             green = (float) 92 / 255;
             blue = (float) 234 / 255;
@@ -96,6 +153,11 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             red = (float) 204 / 255;
             green = (float) 108 / 255;
             blue = (float) 114 / 255;
+        }
+        if (ModFluids.isMoltenMetallurgium(state)) {
+            red = (float) 30 / 255;
+            green = (float) 15 / 255;
+            blue = (float) 90 / 255;
         }
         if (ModFluids.isMoltenMidasGold(state)) {
             red = (float) 255 / 255;
@@ -107,10 +169,20 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 190 / 255;
             blue = (float) 180 / 255;
         }
+        if (ModFluids.isMoltenMythantite(state)) {
+            red = (float) 218 / 255;
+            green = (float) 26 / 255;
+            blue = (float) 26 / 255;
+        }
         if (ModFluids.isMoltenMythril(state)) {
             red = (float) 37 / 255;
             green = (float) 124 / 255;
             blue = (float) 190 / 255;
+        }
+        if (ModFluids.isMoltenOrichadium(state)) {
+            red = (float) 250 / 255;
+            green = (float) 160 / 255;
+            blue = (float) 75 / 255;
         }
         if (ModFluids.isMoltenOrichalcum(state)) {
             red = (float) 140 / 255;
@@ -152,12 +224,22 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 163 / 255;
             blue = (float) 200 / 255;
         }
-        if (ModFluids.isMoltenStormyx(state)) {
+        if (ModFluids.isMoltenStarrite(state)) {
             red = (float) 30 / 255;
             green = (float) 15 / 255;
             blue = (float) 90 / 255;
         }
-        if (ModFluids.isMoltenStarrite(state)) {
+        if (ModFluids.isMoltenStarPlatinum(state)) {
+            red = (float) 30 / 255;
+            green = (float) 15 / 255;
+            blue = (float) 90 / 255;
+        }
+        if (ModFluids.isMoltenSteel(state)) {
+            red = (float) 47 / 255;
+            green = (float) 43 / 255;
+            blue = (float) 33 / 255;
+        }
+        if (ModFluids.isMoltenStormyx(state)) {
             red = (float) 30 / 255;
             green = (float) 15 / 255;
             blue = (float) 90 / 255;
@@ -167,8 +249,6 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 160 / 255;
             blue = (float) 163 / 255;
         }
-
-
     }
 
     @Inject(method = "applyFog", at = @At("HEAD"), cancellable = true)
@@ -178,7 +258,7 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
 // Vanilla Materials
 
-        if (ModFluids.isMoltenIron(state)) {
+        if (ModFluids.isMoltenAndesite(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
@@ -193,6 +273,11 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
+        if (ModFluids.isMoltenIron(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMoltenNetherite(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
@@ -201,7 +286,35 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
 // Create
 
+        if (ModFluids.isMoltenAndesiteAlloy(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenBrass(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMoltenZinc(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+// Ad Astra
+
+        if (ModFluids.isMoltenCalorite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenDesh(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenOstrum(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
@@ -224,7 +337,22 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
+        if (ModFluids.isMoltenBronze(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMoltenCarmot(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenCelestium(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenDurasteel(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
@@ -234,7 +362,17 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
+        if (ModFluids.isMoltenKyrmot(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMoltenManganese(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenMetallurgium(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
@@ -249,7 +387,17 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
+        if (ModFluids.isMoltenMythantite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
         if (ModFluids.isMoltenMythril(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenOrichadium(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
@@ -294,12 +442,22 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
-        if (ModFluids.isMoltenStormyx(state)) {
+        if (ModFluids.isMoltenStarrite(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();
         }
-        if (ModFluids.isMoltenStarrite(state)) {
+        if (ModFluids.isMoltenStarPlatinum(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenSteel(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenStormyx(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();

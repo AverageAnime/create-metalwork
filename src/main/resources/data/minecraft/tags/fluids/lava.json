@@ -2,6 +2,134 @@
   "replace": false,
   "values": [
     {
+      "id": "createmetalwork:flowing_molten_star_platinum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_star_platinum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_celestium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_celestium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_hallowed",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_hallowed",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_andesite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_andesite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_durasteel",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_durasteel",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_steel",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_steel",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_bronze",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_bronze",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_ostrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_ostrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_calorite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_calorite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_desh",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_desh",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_orichadium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_orichadium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_kyrmot",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_kyrmot",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_mythantite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_mythantite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_metallurgium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_metallurgium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_celestium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_celestium",
+      "required": false
+    },
+    {
       "id": "createmetalwork:flowing_molten_adamantite",
       "required": false
     },
@@ -30,7 +158,15 @@
       "required": false
     },
     {
-      "id": "createmetalwork:molten_bronze",
+      "id": "createmetalwork:molten_brass",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_brass",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_brass",
       "required": false
     },
     {

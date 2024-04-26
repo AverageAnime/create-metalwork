@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "createmetalwork:crushed_andesite"
+    },
+    {
+      "chance": 0.75,
+      "item": "createmetalwork:crushed_andesite"
+    },
+    {
+      "chance": 0.55,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
