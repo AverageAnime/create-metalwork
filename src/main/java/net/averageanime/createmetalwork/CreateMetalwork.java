@@ -31,9 +31,7 @@ public class CreateMetalwork implements ModInitializer {
 		Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
 				.displayName(Text.translatable("itemgroup.createmetalwork"))
 				.icon(() -> new ItemStack(ModItems.ICON))
-				.entries(((displayContext, entries) -> {
-					entries.add(ModItems.CRUSHEDNETHERITESCRAP);
-				}))
+				.entries(((displayContext, entries) -> entries.add(ModItems.CRUSHEDNETHERITESCRAP)))
 				.build());
 
 		ModItems.registerModItems();
