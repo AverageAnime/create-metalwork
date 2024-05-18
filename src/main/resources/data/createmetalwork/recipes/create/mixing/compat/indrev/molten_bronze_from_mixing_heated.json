@@ -3,27 +3,19 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
+        "create",
+        "indrev"
       ]
-    },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "indrev"
-        ]
-      }
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":18000, "fluid":"createmetalwork:molten_copper"
+      "amount":18000, "fluid":"indrev:molten_copper_still"
     },
     {
-      "amount":9000, "fluid":"createmetalwork:molten_tin"
+      "amount":9000, "fluid":"indrev:molten_tin_still"
     }
   ],
   "results":[

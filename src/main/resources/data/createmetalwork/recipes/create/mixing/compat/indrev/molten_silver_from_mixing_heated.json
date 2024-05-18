@@ -3,30 +3,22 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
+        "create",
+        "indrev"
       ]
-    },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "indrev"
-        ]
-      }
     }
   ],
   "type":"create:mixing",
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:tin_dusts"
+      "tag":"c:crushed_raw_silver"
     }
   ],
   "results":[
     {
       "amount":18000,
-      "fluid":"createmetalwork:molten_tin"
+      "fluid":"indrev:molten_silver_still"
     }
   ]
 }

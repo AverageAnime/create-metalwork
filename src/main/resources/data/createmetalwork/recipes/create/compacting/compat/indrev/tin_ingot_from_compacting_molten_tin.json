@@ -4,29 +4,26 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "mythicmetals"
+        "indrev"
       ]
     },
     {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "indrev"
-        ]
-      }
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:tin_ores"
+      ]
     }
   ],
   "type":"create:compacting",
   "ingredients":[
     {
       "amount":9000,
-      "fluid":"createmetalwork:molten_tin"
+      "fluid":"indrev:molten_tin_still"
     }
   ],
   "results":[
     {
-      "item":"mythicmetals:tin_ingot"
+      "item":"indrev:tin_ingot"
     }
   ]
 }
