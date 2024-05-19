@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "createmetalwork",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"name": "Create: Metalwork",
 	"description": "An Addon for Create.",
 	"authors": [

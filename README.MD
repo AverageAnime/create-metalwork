@@ -13,14 +13,17 @@ Create: Metalwork [Fabric] is an add-on for [Create](https://www.curseforge.com/
 
 ### **Supported Mod(s)**
 * [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra)
-
 > ![metaladastrapreview](https://github.com/AverageAnime/create-metalwork/assets/150550990/850c2e12-0717-472b-8854-2dc9d86b4ddb)
+
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric)
-
 > ![metalcreatepreview](https://github.com/AverageAnime/create-metalwork/assets/150550990/adad12ce-7e48-478f-b6fd-3ceeb0fc2f85)
-* [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)
 
+* [Industrial Revolution](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution)
+> ![MODPREVIEW](https://github.com/AverageAnime/create-metalwork/assets/150550990/bbabcf5e-123e-41f6-9f1b-e588754ac2e9)
+
+* [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)
 > ![metalmythicmetalspreview](https://github.com/AverageAnime/create-metalwork/assets/150550990/c859d2ce-faf4-45e2-acf8-a94b9cd71142)
+
 * [Liquid Burner](https://www.curseforge.com/minecraft/mc-mods/liquid-burner)
 
 ### **Credits**

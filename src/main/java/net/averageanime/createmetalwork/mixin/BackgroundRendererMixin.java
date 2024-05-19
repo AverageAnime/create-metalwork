@@ -249,6 +249,29 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             green = (float) 160 / 255;
             blue = (float) 163 / 255;
         }
+
+// Industrial Revolution
+
+        if (ModFluids.isMoltenElectrum(state)) {
+            red = (float) 191 / 255;
+            green = (float) 141 / 255;
+            blue = (float) 34 / 255;
+        }
+        if (ModFluids.isMoltenEnrichedNikolite(state)) {
+            red = (float) 47 / 255;
+            green = (float) 11 / 255;
+            blue = (float) 127 / 255;
+        }
+        if (ModFluids.isMoltenNikolite(state)) {
+            red = (float) 60 / 255;
+            green = (float) 91 / 255;
+            blue = (float) 74 / 255;
+        }
+        if (ModFluids.isMoltenTungsten(state)) {
+            red = (float) 81 / 255;
+            green = (float) 86 / 255;
+            blue = (float) 71 / 255;
+        }
     }
 
     @Inject(method = "applyFog", at = @At("HEAD"), cancellable = true)
@@ -463,6 +486,29 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
             ci.cancel();
         }
         if (ModFluids.isMoltenTin(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+// Industrial Revolution
+
+        if (ModFluids.isMoltenEnrichedNikolite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenElectrum(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenNikolite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+        if (ModFluids.isMoltenTungsten(state)) {
             RenderSystem.setShaderFogStart(-1);
             RenderSystem.setShaderFogEnd(1);
             ci.cancel();

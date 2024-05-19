@@ -191,5 +191,24 @@ public class CreateMetalworkClient implements ClientModInitializer {
                 new Identifier("createmetalwork:block/molten_tin_flow")
         ));
 
+// Industrial Revolution
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ELECTRUM, ModFluids.FLOWING_MOLTEN_ELECTRUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_electrum_still"),
+                new Identifier("createmetalwork:block/molten_electrum_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ENRICHED_NIKOLITE, ModFluids.FLOWING_MOLTEN_ENRICHED_NIKOLITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_enriched_nikolite_still"),
+                new Identifier("createmetalwork:block/molten_enriched_nikolite_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_NIKOLITE, ModFluids.FLOWING_MOLTEN_NIKOLITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_nikolite_still"),
+                new Identifier("createmetalwork:block/molten_nikolite_flow")
+        ));
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_TUNGSTEN, ModFluids.FLOWING_MOLTEN_TUNGSTEN, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_tungsten_still"),
+                new Identifier("createmetalwork:block/molten_tungsten_flow")
+        ));
+
     }
 }

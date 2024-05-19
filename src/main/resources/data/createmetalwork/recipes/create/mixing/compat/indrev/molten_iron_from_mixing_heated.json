@@ -12,7 +12,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:crushed_raw_iron"
+      "tag":"c:iron_dusts"
     }
   ],
   "results":[

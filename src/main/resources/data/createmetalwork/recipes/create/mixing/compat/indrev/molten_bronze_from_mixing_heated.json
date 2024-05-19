@@ -12,10 +12,10 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":18000, "fluid":"indrev:molten_copper_still"
+      "tag":"c:tin_dusts"
     },
     {
-      "amount":9000, "fluid":"indrev:molten_tin_still"
+      "tag":"c:copper_dusts"
     }
   ],
   "results":[

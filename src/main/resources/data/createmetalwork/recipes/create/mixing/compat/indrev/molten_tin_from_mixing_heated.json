@@ -18,7 +18,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:crushed_raw_tin"
+      "tag":"c:tin_dusts"
     }
   ],
   "results":[

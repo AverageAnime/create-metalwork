@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "indrev"
+      ]
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:sulfurs"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "indrev:sulfur_dust"
+    },
+    {
+      "chance": 0.25,
+      "item": "indrev:sulfur_dust"
+    }
+  ]
+}

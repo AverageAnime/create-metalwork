@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:crushed_netherite_scrap",
+      "required": false
+    },
+    {
+      "id": "indrev:netherite_scrap_dust",
+      "required": false
+    }
+  ]
+}

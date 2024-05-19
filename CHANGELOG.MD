@@ -1,3 +1,9 @@
+### ***1.0.2***
+
+* Content for Industrial Revolution (Tungsten, Electrum, Nikolite, and Enriched Nikolite). 
+
+Note: When used together, this mod disables the overlapping molten fluids and uses the ones found in Industrial Revolution. 
+
 ### ***1.0.1***
 
 * Content for Ad Astra (Calorite, Desh, and Ostrum)

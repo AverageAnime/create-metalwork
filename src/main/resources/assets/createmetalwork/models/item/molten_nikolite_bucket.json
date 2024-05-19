@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+  "layer0": "createmetalwork:item/molten_nikolite_bucket"
+  }
+}

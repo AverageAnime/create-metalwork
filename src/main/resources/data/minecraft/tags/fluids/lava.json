@@ -2,6 +2,38 @@
   "replace": false,
   "values": [
     {
+      "id": "createmetalwork:flowing_molten_enriched_nikolite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_enriched_nikolite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_nikolite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_nikolite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_electrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_electrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:flowing_molten_tungsten",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_tungsten",
+      "required": false
+    },
+    {
       "id": "createmetalwork:flowing_molten_star_platinum",
       "required": false
     },

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "indrev"
+      ]
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:coal"
+    }
+  ],
+  "processingTime": 125,
+  "results": [
+    {
+      "item": "indrev:coal_dust"
+    },
+    {
+      "chance": 0.45,
+      "item": "indrev:coal_dust"
+    }
+  ]
+}

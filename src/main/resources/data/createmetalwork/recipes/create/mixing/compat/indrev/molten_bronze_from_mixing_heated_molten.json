@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "indrev"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":18000, "fluid":"indrev:molten_copper_still"
+    },
+    {
+      "amount":9000, "fluid":"indrev:molten_tin_still"
+    }
+  ],
+  "results":[
+    {
+      "amount":18000, "fluid":"createmetalwork:molten_bronze"
+    }
+  ]
+}

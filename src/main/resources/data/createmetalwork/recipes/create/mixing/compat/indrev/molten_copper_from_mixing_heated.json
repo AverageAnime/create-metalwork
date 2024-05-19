@@ -12,7 +12,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:crushed_raw_copper"
+      "tag":"c:copper_dusts"
     }
   ],
   "results":[

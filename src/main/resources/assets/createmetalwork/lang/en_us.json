@@ -2,6 +2,22 @@
   "itemgroup.createmetalwork": "Create: Metalwork",
   "item.createmetalwork.icon": "Create: Metalwork",
 
+  "block.createmetalwork.molten_electrum_block": "Molten Electrum",
+  "item.createmetalwork.molten_electrum_bucket": "Molten Electrum Bucket",
+
+  "block.createmetalwork.molten_nikolite_block": "Molten Nikolite",
+  "item.createmetalwork.molten_nikolite_bucket": "Molten Nikolite Bucket",
+
+  "block.createmetalwork.molten_enriched_nikolite_block": "Molten Enriched Nikolite",
+  "item.createmetalwork.molten_enriched_nikolite_bucket": "Molten Enriched Nikolite Bucket",
+
+  "block.createmetalwork.molten_lead_block": "Molten Lead",
+  "item.createmetalwork.molten_lead_bucket": "Molten Lead Bucket",
+
+  "block.createmetalwork.molten_tungsten_block": "Molten Tungsten",
+  "item.createmetalwork.crushed_raw_tungsten": "Crushed Raw Tungsten",
+  "item.createmetalwork.molten_tungsten_bucket": "Molten Tungsten Bucket",
+
   "block.createmetalwork.molten_iron_block": "Molten Iron",
   "block.createmetalwork.molten_copper_block": "Molten Copper",
   "block.createmetalwork.molten_gold_block": "Molten Gold",
@@ -103,9 +119,9 @@
   "item.createmetalwork.crushed_starrite": "Crushed Starrite",
   "item.createmetalwork.crushed_unobtainium": "Crushed Unobtainium",
 
-  "item.createmetalwork.crushed_raw_calorite": "Crushed Calorite",
-  "item.createmetalwork.crushed_raw_desh": "Crushed Desh",
-  "item.createmetalwork.crushed_raw_ostrum": "Crushed Ostrum",
+  "item.createmetalwork.crushed_raw_calorite": "Crushed Raw Calorite",
+  "item.createmetalwork.crushed_raw_desh": "Crushed Raw Desh",
+  "item.createmetalwork.crushed_raw_ostrum": "Crushed Raw Ostrum",
   "block.createmetalwork.molten_desh_block": "Molten Desh",
   "block.createmetalwork.molten_ostrum_block": "Molten Ostrum",
   "block.createmetalwork.molten_calorite_block": "Molten Calorite",

@@ -11,10 +11,10 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":9000, "fluid":"createmetalwork:molten_copper"
+      "tag":"c:copper_dusts"
     },
     {
-      "amount":9000, "fluid":"createmetalwork:molten_zinc"
+      "tag":"c:zinc_dusts"
     }
   ],
   "results":[

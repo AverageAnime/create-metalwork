@@ -70,5 +70,10 @@ public class ModItems {
             final Item CRUSHEDUNOBTAINIUM = registerItem("crushed_unobtainium", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDUNOBTAINIUM));
         }
+
+        if (FabricLoader.getInstance().isModLoaded("indrev")) {
+            final Item CRUSHEDRAWTUNGSTEN = registerItem("crushed_raw_tungsten", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWTUNGSTEN));
+        }
     }
 }
