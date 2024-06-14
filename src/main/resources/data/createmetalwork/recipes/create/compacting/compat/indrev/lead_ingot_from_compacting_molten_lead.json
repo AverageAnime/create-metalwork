@@ -6,6 +6,12 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:lead_ingots"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -16,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"indrev:lead_ingot"
+      "tag":"c:lead_ingots"
     }
   ]
 }

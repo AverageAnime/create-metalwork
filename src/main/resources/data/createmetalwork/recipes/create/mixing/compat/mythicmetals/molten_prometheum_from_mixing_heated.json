@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:prometheum_ores"
+        "c:prometheum_dusts",
+        "c:prometheum_ingots"
       ]
     }
   ],

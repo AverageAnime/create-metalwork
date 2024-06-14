@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:adamantite_ores"
+        "c:adamantite_dusts",
+        "c:adamantite_ingots"
       ]
     }
   ],

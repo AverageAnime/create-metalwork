@@ -5,6 +5,13 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:andesite_dusts",
+        "c:zinc_dusts"
+      ]
     }
   ],
   "type":"create:mixing",

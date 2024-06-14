@@ -6,6 +6,13 @@
         "create",
         "ad_astra"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_desh_blocks",
+        "c:desh_dusts"
+      ]
     }
   ],
   "type": "create:crushing",
@@ -18,7 +25,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_raw_desh"
+      "tag": "c:desh_dusts"
     },
     {
       "chance": 0.75,

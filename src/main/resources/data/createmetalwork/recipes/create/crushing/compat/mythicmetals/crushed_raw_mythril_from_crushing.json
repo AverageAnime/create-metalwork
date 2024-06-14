@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_mythril_ores"
+        "c:raw_mythril_ores",
+        "c:mythril_dusts"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_mythril"
+      "tag": "c:mythril_dusts"
     },
     {
       "chance": 0.75,

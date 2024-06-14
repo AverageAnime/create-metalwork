@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:netherite_scrap_dusts"
+      ]
     }
   ],
   "type": "create:crushing",
@@ -16,11 +22,11 @@
   "processingTime": 700,
   "results": [
     {
-      "item": "createmetalwork:crushed_netherite_scrap"
+      "tag": "c:netherite_scrap_dusts"
     },
     {
       "chance": 0.50,
-      "item": "createmetalwork:crushed_netherite_scrap"
+      "tag": "c:netherite_scrap_dusts"
     },
     {
       "item": "create:experience_nugget"

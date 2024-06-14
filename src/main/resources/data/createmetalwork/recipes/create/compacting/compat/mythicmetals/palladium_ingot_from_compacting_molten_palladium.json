@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:palladium_ores"
+        "c:palladium_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:palladium_ingot"
+      "tag":"c:palladium_ingots"
     }
   ]
 }

@@ -10,7 +10,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:tin_ores"
+        "c:tin_dusts"
       ]
     }
   ],

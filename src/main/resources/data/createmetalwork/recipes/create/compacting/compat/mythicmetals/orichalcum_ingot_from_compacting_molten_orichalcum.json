@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:orichalcum_ores"
+        "c:orichalcum_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:orichalcum_ingot"
+      "tag":"c:orichalcum_ingots"
     }
   ]
 }

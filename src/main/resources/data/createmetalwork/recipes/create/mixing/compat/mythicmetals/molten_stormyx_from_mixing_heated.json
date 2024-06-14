@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:stormyx_ores"
+        "c:stormyx_dusts",
+        "c:stormyx_ingots"
       ]
     }
   ],

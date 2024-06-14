@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:runite_ores"
+        "c:runite_dusts",
+        "c:runite_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:runite_ingot"
+      "tag":"c:runite_ingots"
     }
   ]
 }

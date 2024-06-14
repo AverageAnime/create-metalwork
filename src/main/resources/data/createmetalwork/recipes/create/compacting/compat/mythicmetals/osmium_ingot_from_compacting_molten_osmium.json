@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:osmium_ores"
+        "c:osmium_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:osmium_ingot"
+      "tag":"c:osmium_ingots"
     }
   ]
 }

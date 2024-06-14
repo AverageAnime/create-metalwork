@@ -6,6 +6,12 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:silver_ingots"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -16,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"indrev:silver_ingot"
+      "tag":"c:silver_ingots"
     }
   ]
 }

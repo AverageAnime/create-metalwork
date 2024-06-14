@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:starrite"
+        "c:starrite",
+        "c:starrite_dusts"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_starrite"
+      "tag": "c:starrite_dusts"
     },
     {
       "chance": 0.75,

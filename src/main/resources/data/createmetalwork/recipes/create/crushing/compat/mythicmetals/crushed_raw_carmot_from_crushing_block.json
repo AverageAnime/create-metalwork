@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_carmot_blocks"
+        "c:raw_carmot_blocks",
+        "c:carmot_dusts"
       ]
     }
   ],
@@ -23,7 +24,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_raw_carmot"
+      "tag": "c:carmot_dusts"
     },
     {
       "chance": 0.75,

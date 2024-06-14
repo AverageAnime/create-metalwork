@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:carmot_ores"
+        "c:carmot_dusts",
+        "c:carmot_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:carmot_ingot"
+      "tag":"c:carmot_ingots"
     }
   ]
 }

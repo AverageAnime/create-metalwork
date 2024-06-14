@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:palladium_ores"
+        "c:palladium_dusts",
+        "c:palladium_ingots"
       ]
     }
   ],

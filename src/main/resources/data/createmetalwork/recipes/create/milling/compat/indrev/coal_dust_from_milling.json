@@ -3,8 +3,14 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "indrev"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:coal",
+        "c:coal_dusts"
       ]
     }
   ],
@@ -17,11 +23,11 @@
   "processingTime": 125,
   "results": [
     {
-      "item": "indrev:coal_dust"
+      "tag": "c:coal_dusts"
     },
     {
       "chance": 0.45,
-      "item": "indrev:coal_dust"
+      "tag": "c:coal_dusts"
     }
   ]
 }

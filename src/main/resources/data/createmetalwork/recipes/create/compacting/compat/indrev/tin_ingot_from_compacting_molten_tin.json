@@ -10,7 +10,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:tin_ores"
+        "c:tin_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"indrev:tin_ingot"
+      "tag":"c:tin_ingots"
     }
   ]
 }

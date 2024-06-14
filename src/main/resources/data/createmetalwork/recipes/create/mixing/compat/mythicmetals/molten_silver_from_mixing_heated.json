@@ -7,6 +7,13 @@
       ]
     },
     {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:silver_dusts",
+        "c:silver_ingots"
+      ]
+    },
+    {
       "condition": "fabric:not",
       "value": {
         "condition": "fabric:all_mods_loaded",

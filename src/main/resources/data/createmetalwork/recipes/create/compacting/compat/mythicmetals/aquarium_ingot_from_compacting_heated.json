@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:aquarium_ores"
+        "c:aquarium_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:aquarium_ingot"
+      "tag":"c:aquarium_ingots"
     }
   ]
 }

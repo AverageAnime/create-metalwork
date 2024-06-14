@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:palladium_ores"
+        "c:palladium_ores",
+        "c:palladium_dusts"
       ]
     }
   ],
@@ -22,11 +23,11 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_palladium"
+      "tag": "c:palladium_dusts"
     },
     {
       "chance": 0.75,
-      "item": "createmetalwork:crushed_raw_palladium"
+      "tag": "c:palladium_dusts"
     },
     {
       "chance": 0.75,

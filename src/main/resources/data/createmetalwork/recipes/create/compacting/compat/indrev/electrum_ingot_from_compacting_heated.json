@@ -3,8 +3,15 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "ad_astra"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gold_dusts",
+        "c:silver_dusts",
+        "c:electrum_ingots"
       ]
     }
   ],
@@ -20,7 +27,7 @@
   ],
   "results":[
     {
-      "item":"indrev:electrum_ingot"
+      "tag":"c:electrum_ingots"
     }
   ]
 }

@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:quadrillum_ores"
+        "c:quadrillum_dusts",
+        "c:quadrillum_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:quadrillum_ingot"
+      "tag":"c:quadrillum_ingots"
     }
   ]
 }

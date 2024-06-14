@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:tin_ores"
+        "c:tin_dusts",
+        "c:tin_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:tin_ingot"
+      "tag":"c:tin_ingots"
     }
   ]
 }

@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:andesite_dusts"
+      ]
     }
   ],
   "type": "create:crushing",
@@ -16,11 +22,11 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_andesite"
+      "tag": "c:andesite_dusts"
     },
     {
       "chance": 0.75,
-      "item": "createmetalwork:crushed_andesite"
+      "tag": "c:andesite_dusts"
     },
     {
       "chance": 0.55,

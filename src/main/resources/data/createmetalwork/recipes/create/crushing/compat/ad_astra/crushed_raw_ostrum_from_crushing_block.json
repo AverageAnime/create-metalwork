@@ -6,6 +6,13 @@
         "create",
         "ad_astra"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_ostrum_blocks",
+        "c:ostrum_dusts"
+      ]
     }
   ],
   "type": "create:crushing",
@@ -18,7 +25,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_raw_ostrum"
+      "tag": "c:ostrum_dusts"
     },
     {
       "chance": 0.75,

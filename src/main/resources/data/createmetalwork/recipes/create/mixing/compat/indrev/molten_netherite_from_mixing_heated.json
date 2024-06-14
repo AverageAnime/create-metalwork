@@ -6,6 +6,13 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:gold_dusts",
+        "c:netherite_scrap_dusts"
+      ]
     }
   ],
   "type":"create:mixing",
@@ -24,16 +31,16 @@
       "tag":"c:gold_dusts"
     },
     {
-      "tag":"c:netherite_dusts"
+      "tag":"c:netherite_scrap_dusts"
     },
     {
-      "tag":"c:netherite_dusts"
+      "tag":"c:netherite_scrap_dusts"
     },
     {
-      "tag":"c:netherite_dusts"
+      "tag":"c:netherite_scrap_dusts"
     },
     {
-      "tag":"c:netherite_dusts"
+      "tag":"c:netherite_scrap_dusts"
     }
   ],
   "results":[

@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:banglum_ores"
+        "c:banglum_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:banglum_ingot"
+      "tag":"c:banglum_ingots"
     }
   ]
 }

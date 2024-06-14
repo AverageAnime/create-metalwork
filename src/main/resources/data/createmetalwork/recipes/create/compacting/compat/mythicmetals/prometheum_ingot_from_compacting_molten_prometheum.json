@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:prometheum_ores"
+        "c:prometheum_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:prometheum_ingot"
+      "tag":"c:prometheum_ingots"
     }
   ]
 }

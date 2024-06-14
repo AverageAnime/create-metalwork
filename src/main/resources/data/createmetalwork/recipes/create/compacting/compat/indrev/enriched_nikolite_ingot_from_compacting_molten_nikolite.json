@@ -6,6 +6,12 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:diamond_dusts"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -14,7 +20,7 @@
       "amount":9000,"fluid":"createmetalwork:molten_nikolite"
     },
     {
-      "item":"indrev:diamond_dust"
+      "tag":"c:diamond_dusts"
     }
   ],
   "results":[

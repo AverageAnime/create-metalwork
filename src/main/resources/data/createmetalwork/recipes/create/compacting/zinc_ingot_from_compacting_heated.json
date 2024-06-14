@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:zinc_ores"
+        "c:zinc_dusts",
+        "c:zinc_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"create:zinc_ingot"
+      "tag":"c:zinc_ingots"
     }
   ]
 }

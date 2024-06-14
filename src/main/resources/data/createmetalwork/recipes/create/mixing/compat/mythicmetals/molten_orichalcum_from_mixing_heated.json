@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:orichalcum_ores"
+        "c:orichalcum_dusts",
+        "c:orichalcum_ingots"
       ]
     }
   ],

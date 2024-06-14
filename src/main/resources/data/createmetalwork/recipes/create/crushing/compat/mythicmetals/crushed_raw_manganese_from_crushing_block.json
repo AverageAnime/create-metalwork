@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_manganese_blocks"
+        "c:raw_manganese_blocks",
+        "c:manganese_dusts"
       ]
     }
   ],
@@ -23,7 +24,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_raw_manganese"
+      "tag": "c:manganese_dusts"
     },
     {
       "chance": 0.75,

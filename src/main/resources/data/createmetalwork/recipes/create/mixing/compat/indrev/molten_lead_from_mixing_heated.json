@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:lead_dusts"
+      ]
     }
   ],
   "type":"create:mixing",

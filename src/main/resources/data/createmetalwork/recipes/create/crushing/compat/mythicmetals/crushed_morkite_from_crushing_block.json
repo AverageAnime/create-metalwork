@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:morkite_blocks"
+        "c:morkite_blocks",
+        "c:morkite_dusts"
       ]
     }
   ],
@@ -23,7 +24,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_morkite"
+      "tag": "c:morkite_dusts"
     },
     {
       "chance": 0.75,

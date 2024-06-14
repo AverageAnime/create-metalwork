@@ -3,8 +3,14 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "mythicmetals"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:unobtainium_dusts",
+        "c:metallurgium_ingots"
       ]
     }
   ],
@@ -12,7 +18,7 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:crushed_unobtainium"
+      "tag":"c:unobtainium_dusts"
     },
     {
       "amount":9000,

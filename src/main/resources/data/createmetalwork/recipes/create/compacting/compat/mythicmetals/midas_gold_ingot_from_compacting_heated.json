@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:midas_gold_ores"
+        "c:midas_gold_dusts",
+        "c:midas_gold_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:midas_gold_ingot"
+      "tag":"c:midas_gold_ingots"
     }
   ]
 }

@@ -6,6 +6,12 @@
         "create",
         "ad_astra"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:desh_dusts"
+      ]
     }
   ],
   "type":"create:mixing",

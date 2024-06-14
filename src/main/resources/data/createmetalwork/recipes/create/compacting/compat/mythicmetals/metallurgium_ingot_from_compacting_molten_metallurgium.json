@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "mythicmetals"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:metallurgium_ingots"
       ]
     }
   ],
@@ -16,7 +21,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:metallurgium_ingot"
+      "tag":"c:metallurgium_ingots"
     }
   ]
 }

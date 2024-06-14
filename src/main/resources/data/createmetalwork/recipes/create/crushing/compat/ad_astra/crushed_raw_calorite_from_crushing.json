@@ -6,6 +6,13 @@
         "create",
         "ad_astra"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:raw_calorite",
+        "c:calorite_dusts"
+      ]
     }
   ],
   "type": "create:crushing",
@@ -17,7 +24,7 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_calorite"
+      "tag": "c:calorite_dusts"
     },
     {
       "chance": 0.75,

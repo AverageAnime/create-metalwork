@@ -6,6 +6,12 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nikolite_ores"
+      ]
     }
   ],
   "type": "create:crushing",

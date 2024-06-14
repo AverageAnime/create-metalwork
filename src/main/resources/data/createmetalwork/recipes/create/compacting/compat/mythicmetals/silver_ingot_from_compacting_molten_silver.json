@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "mythicmetals"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:silver_ingots"
       ]
     },
     {
@@ -26,7 +31,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:silver_ingot"
+      "tag":"c:silver_ingots"
     }
   ]
 }

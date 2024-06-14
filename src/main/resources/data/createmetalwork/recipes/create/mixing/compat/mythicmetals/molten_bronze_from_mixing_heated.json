@@ -7,6 +7,12 @@
       ]
     },
     {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bronze_ingots"
+      ]
+    },
+    {
       "condition": "fabric:not",
       "value": {
         "condition": "fabric:all_mods_loaded",

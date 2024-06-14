@@ -5,6 +5,12 @@
       "values": [
         "create"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:brass_ingots"
+      ]
     }
   ],
   "type":"create:compacting",
@@ -15,7 +21,7 @@
   ],
   "results":[
     {
-      "item":"create:brass_ingot"
+      "tag":"c:brass_ingots"
     }
   ]
 }

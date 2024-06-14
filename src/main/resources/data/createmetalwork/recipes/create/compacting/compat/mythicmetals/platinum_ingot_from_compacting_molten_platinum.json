@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:platinum_ores"
+        "c:platinum_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:platinum_ingot"
+      "tag":"c:platinum_ingots"
     }
   ]
 }

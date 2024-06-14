@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:kyber_ores"
+        "c:kyber_dusts",
+        "c:kyber_ingots"
       ]
     }
   ],

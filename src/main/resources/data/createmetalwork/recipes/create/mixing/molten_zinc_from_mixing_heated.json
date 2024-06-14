@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:zinc_ores"
+        "c:zinc_dusts"
       ]
     }
   ],

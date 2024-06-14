@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:unobtainium_ores"
+        "c:unobtainium_ores",
+        "c:unobtainium_dusts"
       ]
     }
   ],
@@ -22,11 +23,11 @@
   "processingTime": 700,
   "results": [
     {
-      "item": "createmetalwork:crushed_unobtainium"
+      "tag": "c:unobtainium_dusts"
     },
     {
       "chance": 0.55,
-      "item": "createmetalwork:crushed_unobtainium"
+      "tag": "c:unobtainium_dusts"
     },
     {
       "item": "create:experience_nugget"

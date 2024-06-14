@@ -6,6 +6,12 @@
         "create",
         "indrev"
       ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:iron_dusts"
+      ]
     }
   ],
   "type":"create:mixing",

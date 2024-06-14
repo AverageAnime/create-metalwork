@@ -3,8 +3,15 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "indrev"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:copper_dusts",
+        "c:tin_dusts",
+        "c:bronze_ingots"
       ]
     }
   ],
@@ -12,10 +19,10 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:tin_dusts"
+      "tag":"c:copper_dusts"
     },
     {
-      "tag":"c:copper_dusts"
+      "tag":"c:tin_dusts"
     }
   ],
   "results":[

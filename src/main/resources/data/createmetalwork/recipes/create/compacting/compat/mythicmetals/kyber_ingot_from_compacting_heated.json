@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:kyber_ores"
+        "c:kyber_dusts",
+        "c:kyber_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:kyber_ingot"
+      "tag":"c:kyber_ingots"
     }
   ]
 }

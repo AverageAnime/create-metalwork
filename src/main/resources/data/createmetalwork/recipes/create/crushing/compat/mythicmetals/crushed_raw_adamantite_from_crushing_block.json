@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_adamantite_blocks"
+        "c:raw_adamantite_blocks",
+        "c:adamantite_dusts"
       ]
     }
   ],
@@ -23,7 +24,7 @@
   "results": [
     {
       "count": 9,
-      "item": "createmetalwork:crushed_raw_adamantite"
+      "tag": "c:adamantite_dusts"
     },
     {
       "chance": 0.75,

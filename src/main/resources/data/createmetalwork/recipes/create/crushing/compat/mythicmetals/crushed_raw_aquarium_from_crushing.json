@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:raw_aquarium_ores"
+        "c:raw_aquarium_ores",
+        "c:aquarium_dusts"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_aquarium"
+      "tag": "c:aquarium_dusts"
     },
     {
       "chance": 0.75,

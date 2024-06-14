@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:manganese_ores"
+        "c:manganese_dusts",
+        "c:manganese_ingots"
       ]
     }
   ],

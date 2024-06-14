@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:banglum_ores"
+        "c:banglum_dusts",
+        "c:banglum_ingots"
       ]
     }
   ],

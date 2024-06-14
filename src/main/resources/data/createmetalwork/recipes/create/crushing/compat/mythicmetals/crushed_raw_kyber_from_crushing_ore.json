@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:kyber_ores"
+        "c:kyber_ores",
+        "c:kyber_dusts"
       ]
     }
   ],
@@ -22,11 +23,11 @@
   "processingTime": 400,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_kyber"
+      "tag": "c:kyber_dusts"
     },
     {
       "chance": 0.75,
-      "item": "createmetalwork:crushed_raw_kyber"
+      "tag": "c:kyber_dusts"
     },
     {
       "chance": 0.75,

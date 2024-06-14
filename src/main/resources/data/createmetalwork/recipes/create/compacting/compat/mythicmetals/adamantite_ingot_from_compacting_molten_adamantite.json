@@ -9,7 +9,7 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:adamantite_ores"
+        "c:adamantite_ingots"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:adamantite_ingot"
+      "tag":"c:adamantite_ingots"
     }
   ]
 }

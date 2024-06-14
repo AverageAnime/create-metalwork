@@ -9,7 +9,8 @@
     {
       "condition": "fabric:tags_populated",
       "values": [
-        "c:silver_ores"
+        "c:silver_dusts",
+        "c:silver_ingots"
       ]
     }
   ],
@@ -22,7 +23,7 @@
   ],
   "results":[
     {
-      "item":"mythicmetals:silver_ingot"
+      "tag":"c:silver_ingots"
     }
   ]
 }

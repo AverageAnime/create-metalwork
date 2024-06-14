@@ -3,8 +3,13 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        "indrev"
+        "create"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:diamond_dusts"
       ]
     }
   ],
@@ -17,11 +22,11 @@
   "processingTime": 1200,
   "results": [
     {
-      "item": "indrev:diamond_dust"
+      "tag": "c:diamond_dusts"
     },
     {
       "chance": 0.05,
-      "item": "indrev:diamond_dust"
+      "tag": "c:diamond_dusts"
     }
   ]
 }
