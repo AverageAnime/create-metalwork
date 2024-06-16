@@ -3,13 +3,8 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create"
-      ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:unobtainium"
+        "create",
+        "mythicmetals"
       ]
     }
   ],
@@ -22,11 +17,11 @@
   "processingTime": 700,
   "results": [
     {
-      "item": "createmetalwork:crushed_raw_unobtainium"
+      "item": "createmetalwork:crushed_unobtainium"
     },
     {
       "chance": 0.20,
-      "item": "createmetalwork:crushed_raw_unobtainium"
+      "item": "createmetalwork:crushed_unobtainium"
     },
     {
       "item": "create:experience_nugget"

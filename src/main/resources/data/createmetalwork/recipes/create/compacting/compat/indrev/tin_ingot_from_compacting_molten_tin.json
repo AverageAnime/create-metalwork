@@ -6,12 +6,6 @@
         "create",
         "indrev"
       ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:tin_ores"
-      ]
     }
   ],
   "type":"create:compacting",

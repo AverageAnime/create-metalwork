@@ -5,12 +5,6 @@
       "values": [
         "create"
       ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:zinc_ores"
-      ]
     }
   ],
   "type":"create:compacting",
