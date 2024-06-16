@@ -12,10 +12,10 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:gold_dusts"
+      "tag":"c:crushed_raw_gold"
     },
     {
-      "tag":"c:silver_dusts"
+      "tag":"c:crushed_raw_silver"
     }
   ],
   "results":[
