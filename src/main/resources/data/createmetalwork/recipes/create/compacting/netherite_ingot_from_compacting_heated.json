@@ -11,18 +11,6 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "tag":"c:netherite_scrap_dusts"
-    },
-    {
-      "tag":"c:netherite_scrap_dusts"
-    },
-    {
-      "tag":"c:netherite_scrap_dusts"
-    },
-    {
-      "tag":"c:netherite_scrap_dusts"
-    },
-    {
       "tag":"c:gold_dusts"
     },
     {
@@ -33,6 +21,18 @@
     },
     {
       "tag":"c:gold_dusts"
+    },
+    {
+      "tag":"c:netherite_scrap_dusts"
+    },
+    {
+      "tag":"c:netherite_scrap_dusts"
+    },
+    {
+      "tag":"c:netherite_scrap_dusts"
+    },
+    {
+      "tag":"c:netherite_scrap_dusts"
     }
   ],
   "results":[
