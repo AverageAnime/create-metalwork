@@ -2,7 +2,7 @@
 
 Recipe Changes:
 * Updates/fixes for load conditions.
-* Certain mixing recipes now use "c:crushed_raw_xxx" instead of "c:xxx_dusts" to prevent duplication  with mods (Industrial Revolution, Modern Industrialization, Tech Reborn) that can turn ingots into dusts.
+* Certain mixing recipes now use "c:crushed_raw_xxx" instead of "c:xxx_dusts" to prevent duplication with mods (Industrial Revolution, Modern Industrialization, Tech Reborn) that can turn ingots into dust.
 * Recipes for melting ingots back to their molten form.
 * Support for Ad Astra's Steel.
 
