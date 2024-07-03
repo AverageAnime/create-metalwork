@@ -1,3 +1,8 @@
+### ***1.0.4***
+
+Recipe Changes:
+* Increased amount of Molten Brass received from mixing recipes. 
+
 ### ***1.0.3***
 
 Recipe Changes:

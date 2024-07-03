@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "createmetalwork",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"name": "Create: Metalwork",
-	"description": "An Addon for Create.",
+	"description": "An Addon for Create that introduces new fluids and crushed ores that can be used to increase the number of ingots received per ore.",
 	"authors": [
 		"average_anime"
 	],
 	"contact": {
 		"homepage": "",
-		"sources": ""
+		"sources": "https://github.com/AverageAnime/create-metalwork"
 	},
 	"license": "GPLv3",
 	"icon": "assets/createmetalwork/icon.png",
