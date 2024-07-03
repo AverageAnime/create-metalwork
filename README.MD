@@ -25,5 +25,5 @@ Create: Metalwork is an add-on for [Create](https://www.curseforge.com/minecraft
 
 ### **My Other Mods**
 * [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food-fabric)
-* * [Rune Essence](https://www.curseforge.com/minecraft/mc-mods/rune-essence)
+* [Rune Essence](https://www.curseforge.com/minecraft/mc-mods/rune-essence)
 * [Stack Size Edit](https://www.curseforge.com/minecraft/mc-mods/stack-size-edit-fabric)
