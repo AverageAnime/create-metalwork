@@ -38,7 +38,35 @@ public class ModFluids {
     public static void registerFluid() {
 
 // Vanilla Materials
+        if (FabricLoader.getInstance().isModLoaded("create_dd")) {
+            if (!FabricLoader.getInstance().isModLoaded("mythicmetals")) {
+                if (!FabricLoader.getInstance().isModLoaded("indrev")) {
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_BRONZE_BUCKET));
+                    STILL_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_bronze"), new MoltenBronzeFluid.Still());
+                    FLOWING_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_bronze"), new MoltenBronzeFluid.Flowing());
+                    MOLTEN_BRONZE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_BRONZE, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_BRONZE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_BRONZE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_TIN_BUCKET));
+                    STILL_MOLTEN_TIN = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_tin"), new MoltenTinFluid.Still());
+                    FLOWING_MOLTEN_TIN = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_tin"), new MoltenTinFluid.Flowing());
+                    MOLTEN_TIN_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_TIN, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_TIN_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_TIN, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                }
+
+            }
+
+        }
         if (FabricLoader.getInstance().isModLoaded("indrev")) {
 
         } else {
@@ -516,50 +544,50 @@ public class ModFluids {
 
                 } else {
 
-                ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_BRONZE_BUCKET));
-                STILL_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "molten_bronze"), new MoltenBronzeFluid.Still());
-                FLOWING_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_bronze"), new MoltenBronzeFluid.Flowing());
-                MOLTEN_BRONZE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_block"),
-                        new FluidBlock(ModFluids.STILL_MOLTEN_BRONZE, FabricBlockSettings.copyOf(Blocks.LAVA)) {
-                        });
-                MOLTEN_BRONZE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_bucket"),
-                        new BucketItem(ModFluids.STILL_MOLTEN_BRONZE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_BRONZE_BUCKET));
+                    STILL_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_bronze"), new MoltenBronzeFluid.Still());
+                    FLOWING_MOLTEN_BRONZE = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_bronze"), new MoltenBronzeFluid.Flowing());
+                    MOLTEN_BRONZE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_BRONZE, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_BRONZE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_bronze_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_BRONZE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
-                ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_SILVER_BUCKET));
-                STILL_MOLTEN_SILVER = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "molten_silver"), new MoltenSilverFluid.Still());
-                FLOWING_MOLTEN_SILVER = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_silver"), new MoltenSilverFluid.Flowing());
-                MOLTEN_SILVER_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_silver_block"),
-                        new FluidBlock(ModFluids.STILL_MOLTEN_SILVER, FabricBlockSettings.copyOf(Blocks.LAVA)) {
-                        });
-                MOLTEN_SILVER_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_silver_bucket"),
-                        new BucketItem(ModFluids.STILL_MOLTEN_SILVER, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_SILVER_BUCKET));
+                    STILL_MOLTEN_SILVER = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_silver"), new MoltenSilverFluid.Still());
+                    FLOWING_MOLTEN_SILVER = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_silver"), new MoltenSilverFluid.Flowing());
+                    MOLTEN_SILVER_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_silver_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_SILVER, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_SILVER_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_silver_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_SILVER, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
-                ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_STEEL_BUCKET));
-                STILL_MOLTEN_STEEL = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "molten_steel"), new MoltenSteelFluid.Still());
-                FLOWING_MOLTEN_STEEL = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_steel"), new MoltenSteelFluid.Flowing());
-                MOLTEN_STEEL_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_steel_block"),
-                        new FluidBlock(ModFluids.STILL_MOLTEN_STEEL, FabricBlockSettings.copyOf(Blocks.LAVA)) {
-                        });
-                MOLTEN_STEEL_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_steel_bucket"),
-                        new BucketItem(ModFluids.STILL_MOLTEN_STEEL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_STEEL_BUCKET));
+                    STILL_MOLTEN_STEEL = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_steel"), new MoltenSteelFluid.Still());
+                    FLOWING_MOLTEN_STEEL = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_steel"), new MoltenSteelFluid.Flowing());
+                    MOLTEN_STEEL_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_steel_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_STEEL, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_STEEL_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_steel_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_STEEL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
-                ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_TIN_BUCKET));
-                STILL_MOLTEN_TIN = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "molten_tin"), new MoltenTinFluid.Still());
-                FLOWING_MOLTEN_TIN = Registry.register(Registries.FLUID,
-                        new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_tin"), new MoltenTinFluid.Flowing());
-                MOLTEN_TIN_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_block"),
-                        new FluidBlock(ModFluids.STILL_MOLTEN_TIN, FabricBlockSettings.copyOf(Blocks.LAVA)) {
-                        });
-                MOLTEN_TIN_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_bucket"),
-                        new BucketItem(ModFluids.STILL_MOLTEN_TIN, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
-}
+                    ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(MOLTEN_TIN_BUCKET));
+                    STILL_MOLTEN_TIN = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "molten_tin"), new MoltenTinFluid.Still());
+                    FLOWING_MOLTEN_TIN = Registry.register(Registries.FLUID,
+                            new Identifier(CreateMetalwork.MOD_ID, "flowing_molten_tin"), new MoltenTinFluid.Flowing());
+                    MOLTEN_TIN_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_block"),
+                            new FluidBlock(ModFluids.STILL_MOLTEN_TIN, FabricBlockSettings.copyOf(Blocks.LAVA)) {
+                            });
+                    MOLTEN_TIN_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, "molten_tin_bucket"),
+                            new BucketItem(ModFluids.STILL_MOLTEN_TIN, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+                }
             }
         }
 
