@@ -1,3 +1,7 @@
+### ***1.0.5***
+
+* Compatibility for Create: Dreams & Desires
+
 ### ***1.0.4***
 
 Recipe Changes:
