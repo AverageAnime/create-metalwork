@@ -1,11 +1,9 @@
-### ***1.0.5 - Fix ***
-
-* Fix crash [#10](https://github.com/AverageAnime/create-metalwork/issues/10)
-
 
 ### ***1.0.5***
 
 * Compatibility for Create: Dreams & Desires
+* Fix crash [#10](https://github.com/AverageAnime/create-metalwork/issues/10)
+
 
 ### ***1.0.4***
 
