@@ -1,4 +1,4 @@
-![cmlogo](https://github.com/AverageAnime/create-metalwork/assets/150550990/1a2294c2-c508-4bb7-ad03-18a5f8199d84)
+![cmlogofixed2](https://github.com/AverageAnime/create-metalwork/assets/150550990/9b5a9711-dc60-4ca4-9ff3-250773771547)
 
 ### **About**
 Create: Metalwork is an add-on for [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) that introduces new fluids and crushed ores that can be used to increase the number of ingots received per ore.
@@ -13,6 +13,7 @@ Create: Metalwork is an add-on for [Create](https://www.curseforge.com/minecraft
 ### **Supported Mod(s)**
 * [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) [Fabric/Forge]
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) [Fabric/Forge]
+* [Create: Dreams & Desires](https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires) [Fabric/Forge]
 * [Industrial Revolution](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution) [Fabric]
 * [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals) [Fabric]
 * [Liquid Burner](https://www.curseforge.com/minecraft/mc-mods/liquid-burner) [Fabric/Forge]

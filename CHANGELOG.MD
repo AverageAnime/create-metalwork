@@ -1,9 +1,12 @@
+### ***1.0.6***
+
+* Content for Majrusz's Progressive Difficulty (Enderium)
+* Fix for molten andesite alloy & brass recipes ([#11](https://github.com/AverageAnime/create-metalwork/issues/11))
 
 ### ***1.0.5***
 
 * Compatibility for Create: Dreams & Desires
 * Fix crash [#10](https://github.com/AverageAnime/create-metalwork/issues/10)
-
 
 ### ***1.0.4***
 
