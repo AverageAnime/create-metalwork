@@ -25,6 +25,11 @@ public class ModItems {
             final Item CRUSHEDANDESITE = registerItem("crushed_andesite", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDANDESITE));
 
+        if (FabricLoader.getInstance().isModLoaded("majruszsdifficulty")) {
+            final Item CRUSHEDENDERIUMSHARD = registerItem("crushed_enderium_shard", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDENDERIUMSHARD));
+        }
+
         if (FabricLoader.getInstance().isModLoaded("ad_astra")) {
             final Item CRUSHEDRAWCALORITE = registerItem("crushed_raw_calorite", new Item(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWCALORITE));

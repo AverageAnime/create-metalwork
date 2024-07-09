@@ -14,6 +14,13 @@ public class CreateMetalworkClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+// Majrusz's Progressive Difficulty
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ENDERIUM, ModFluids.FLOWING_MOLTEN_ENDERIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_enderium_still"),
+                new Identifier("createmetalwork:block/molten_enderium_flow")
+        ));
+
 // Vanilla Materials
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ANDESITE, ModFluids.FLOWING_MOLTEN_ANDESITE, new SimpleFluidRenderHandler(

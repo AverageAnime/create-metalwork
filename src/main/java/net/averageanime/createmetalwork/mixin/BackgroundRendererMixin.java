@@ -34,6 +34,14 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
 
+// Majrusz's Progressive Difficulty
+
+        if (ModFluids.isMoltenEnderium(state)) {
+            red = (float) 255 / 255;
+            green = (float) 87 / 255;
+            blue = (float) 57 / 255;
+        }
+
 // Vanilla Materials
 
         if (ModFluids.isMoltenAndesite(state)) {

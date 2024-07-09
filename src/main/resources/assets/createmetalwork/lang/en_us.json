@@ -2,6 +2,10 @@
   "itemgroup.createmetalwork": "Create: Metalwork",
   "item.createmetalwork.icon": "Create: Metalwork",
 
+  "block.createmetalwork.molten_enderium_block": "Molten Enderium",
+  "item.createmetalwork.molten_enderium_bucket": "Molten Enderium Bucket",
+  "item.createmetalwork.crushed_enderium_shard": "Crushed Enderium Shard",
+
   "block.createmetalwork.molten_electrum_block": "Molten Electrum",
   "item.createmetalwork.molten_electrum_bucket": "Molten Electrum Bucket",
 
