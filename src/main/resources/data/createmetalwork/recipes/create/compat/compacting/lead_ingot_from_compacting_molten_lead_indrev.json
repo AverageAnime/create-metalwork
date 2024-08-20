@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "indrev"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount":9000,"fluidTag":"c:molten_lead"
+    }
+  ],
+  "results":[
+    {
+      "item":"indrev:lead_ingot"
+    }
+  ]
+}

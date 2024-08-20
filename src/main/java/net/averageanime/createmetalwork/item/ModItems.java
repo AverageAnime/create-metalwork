@@ -12,7 +12,6 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item ICON = registerItem("icon", new Item(new FabricItemSettings()));
-    public static final Item CRUSHEDNETHERITESCRAP = registerItem("crushed_netherite_scrap", new Item(new FabricItemSettings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CreateMetalwork.MOD_ID, name), item);
@@ -22,63 +21,109 @@ public class ModItems {
     }
     public static void registerItem(){
 
-            final Item CRUSHEDANDESITE = registerItem("crushed_andesite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDANDESITE));
+        final Item CRUSHED_ANDESITE = registerItem("crushed_andesite", new Item(new FabricItemSettings()));
+        ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_ANDESITE));
 
-        if (FabricLoader.getInstance().isModLoaded("majruszsdifficulty")) {
-            final Item CRUSHEDENDERIUMSHARD = registerItem("crushed_enderium_shard", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDENDERIUMSHARD));
-        }
+        final Item CRUSHED_NETHERITE_SCRAP = registerItem("crushed_netherite_scrap", new Item(new FabricItemSettings()));
+        ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_NETHERITE_SCRAP));
+
+        final Item CRUSHED_RAW_MYTHRIL = registerItem("crushed_raw_mythril", new Item(new FabricItemSettings()));
+        ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_MYTHRIL));
 
         if (FabricLoader.getInstance().isModLoaded("ad_astra")) {
-            final Item CRUSHEDRAWCALORITE = registerItem("crushed_raw_calorite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWCALORITE));
-            final Item CRUSHEDRAWDESH = registerItem("crushed_raw_desh", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWDESH));
-            final Item CRUSHEDRAWOSTRUM = registerItem("crushed_raw_ostrum", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWOSTRUM));
+
+            final Item CRUSHED_RAW_CALORITE = registerItem("crushed_raw_calorite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_CALORITE));
+
+            final Item CRUSHED_RAW_DESH = registerItem("crushed_raw_desh", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_DESH));
+
+            final Item CRUSHED_RAW_OSTRUM = registerItem("crushed_raw_ostrum", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_OSTRUM));
+
         }
 
-        if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
-            final Item CRUSHEDRAWADAMANTITE = registerItem("crushed_raw_adamantite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWADAMANTITE));
-            final Item CRUSHEDRAWAQUARIUM = registerItem("crushed_raw_aquarium", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWAQUARIUM));
-            final Item CRUSHEDRAWBANGLUM = registerItem("crushed_raw_banglum", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWBANGLUM));
-            final Item CRUSHEDRAWCARMOT = registerItem("crushed_raw_carmot", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWCARMOT));
-            final Item CRUSHEDRAWKYBER = registerItem("crushed_raw_kyber", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWKYBER));
-            final Item CRUSHEDRAWMANGANESE = registerItem("crushed_raw_manganese", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWMANGANESE));
-            final Item CRUSHEDRAWMIDASGOLD = registerItem("crushed_raw_midas_gold", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWMIDASGOLD));
-            final Item CRUSHEDMORKITE = registerItem("crushed_morkite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDMORKITE));
-            final Item CRUSHEDRAWMYTHRIL = registerItem("crushed_raw_mythril", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWMYTHRIL));
-            final Item CRUSHEDRAWORICHALCUM = registerItem("crushed_raw_orichalcum", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWORICHALCUM));
-            final Item CRUSHEDRAWPALLADIUM = registerItem("crushed_raw_palladium", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWPALLADIUM));
-            final Item CRUSHEDRAWPROMETHEUM = registerItem("crushed_raw_prometheum", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWPROMETHEUM));
-            final Item CRUSHEDRAWQUADRILLUM = registerItem("crushed_raw_quadrillum", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWQUADRILLUM));
-            final Item CRUSHEDRAWRUNITE = registerItem("crushed_raw_runite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWRUNITE));
-            final Item CRUSHEDRAWSTORMYX = registerItem("crushed_raw_stormyx", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWSTORMYX));
-            final Item CRUSHEDSTARRITE = registerItem("crushed_starrite", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDSTARRITE));
-            final Item CRUSHEDUNOBTAINIUM = registerItem("crushed_unobtainium", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDUNOBTAINIUM));
+        if (FabricLoader.getInstance().isModLoaded("create_dd")) {
+
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("createbigcannons")) {
+
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("galosphere")) {
+
         }
 
         if (FabricLoader.getInstance().isModLoaded("indrev")) {
-            final Item CRUSHEDRAWTUNGSTEN = registerItem("crushed_raw_tungsten", new Item(new FabricItemSettings()));
-            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDRAWTUNGSTEN));
+
+            final Item CRUSHED_RAW_TUNGSTEN = registerItem("crushed_raw_tungsten", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_TUNGSTEN));
+
         }
+
+        if (FabricLoader.getInstance().isModLoaded("majruszsdifficulty")) {
+
+            final Item CRUSHED_ENDERIUM_SHARD = registerItem("crushed_enderium_shard", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_ENDERIUM_SHARD));
+
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
+
+            final Item CRUSHED_MORKITE = registerItem("crushed_morkite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_MORKITE));
+
+            final Item CRUSHED_RAW_ADAMANTITE = registerItem("crushed_raw_adamantite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_ADAMANTITE));
+
+            final Item CRUSHED_RAW_AQUARIUM = registerItem("crushed_raw_aquarium", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_AQUARIUM));
+
+            final Item CRUSHED_RAW_BANGLUM = registerItem("crushed_raw_banglum", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_BANGLUM));
+
+            final Item CRUSHED_RAW_CARMOT = registerItem("crushed_raw_carmot", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_CARMOT));
+
+            final Item CRUSHED_RAW_KYBER = registerItem("crushed_raw_kyber", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_KYBER));
+
+            final Item CRUSHED_RAW_MANGANESE = registerItem("crushed_raw_manganese", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_MANGANESE));
+
+            final Item CRUSHED_RAW_MIDAS_GOLD = registerItem("crushed_raw_midas_gold", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_MIDAS_GOLD));
+
+            final Item CRUSHED_RAW_ORICHALCUM = registerItem("crushed_raw_orichalcum", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_ORICHALCUM));
+
+            final Item CRUSHED_RAW_PALLADIUM = registerItem("crushed_raw_palladium", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_PALLADIUM));
+
+            final Item CRUSHED_RAW_PROMETHEUM = registerItem("crushed_raw_prometheum", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_PROMETHEUM));
+
+            final Item CRUSHED_RAW_QUADRILLUM = registerItem("crushed_raw_quadrillum", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_QUADRILLUM));
+
+            final Item CRUSHED_RAW_RUNITE = registerItem("crushed_raw_runite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_RUNITE));
+
+            final Item CRUSHED_RAW_STORMYX = registerItem("crushed_raw_stormyx", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_STORMYX));
+
+            final Item CRUSHEDSTARRITE = registerItem("crushed_starrite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHEDSTARRITE));
+
+            final Item CRUSHED_UNOBTAINIUM = registerItem("crushed_unobtainium", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_UNOBTAINIUM));
+
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("oreganized")) {
+
+        }
+
     }
 }

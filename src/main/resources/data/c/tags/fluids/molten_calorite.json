@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_calorite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_calorite",
+      "required": false
+    }
+  ]
+}

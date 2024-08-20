@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_electrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_electrum",
+      "required": false
+    },
+    {
+      "id": "molten_metals:flowing_molten_electrum",
+      "required": false
+    },
+    {
+      "id": "molten_metals:molten_electrum",
+      "required": false
+    }
+  ]
+}

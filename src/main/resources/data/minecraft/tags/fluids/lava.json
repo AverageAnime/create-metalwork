@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createmetalwork:flowing_molten_enderium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_enderium",
+      "required": false
+    },
+    {
       "id": "createmetalwork:flowing_molten_enriched_nikolite",
       "required": false
     },
@@ -154,14 +162,6 @@
       "required": false
     },
     {
-      "id": "createmetalwork:flowing_molten_celestium",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_celestium",
-      "required": false
-    },
-    {
       "id": "createmetalwork:flowing_molten_adamantite",
       "required": false
     },
@@ -183,14 +183,6 @@
     },
     {
       "id": "createmetalwork:molten_banglum",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:flowing_molten_bronze",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_brass",
       "required": false
     },
     {

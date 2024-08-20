@@ -10,12 +10,20 @@ Create: Metalwork is an add-on for [Create](https://www.curseforge.com/minecraft
 * New molten versions of ores.
 * New crushed ores.
 
+### **Mod Recommendations:**
+
+* [Almost United](https://www.curseforge.com/minecraft/mc-mods/almost-unified) - Unify recipes to reduce item overlap.
+
 ### **Supported Mod(s)**
 * [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) [Fabric/Forge]
 * [Create](https://www.curseforge.com/minecraft/mc-mods/create-fabric) [Fabric/Forge]
+* [Create: Big Cannons](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons) [Fabric/Forge]
 * [Create: Dreams & Desires](https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires) [Fabric/Forge]
+* [Galosphere](https://www.curseforge.com/minecraft/mc-mods/galosphere) [Fabric/Forge]
 * [Industrial Revolution](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution) [Fabric]
 * [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals) [Fabric]
+* [Oreganized](https://www.curseforge.com/minecraft/mc-mods/oreganized) [Forge]
+* [Oreganized Refabricated](https://modrinth.com/mod/oreganized-refabricated) [Fabric]
 * [Liquid Burner](https://www.curseforge.com/minecraft/mc-mods/liquid-burner) [Fabric/Forge]
 
 ### **Credits**

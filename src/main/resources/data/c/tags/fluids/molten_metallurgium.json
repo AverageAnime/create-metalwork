@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_metallurgium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_metallurgium",
+      "required": false
+    }
+  ]
+}

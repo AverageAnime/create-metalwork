@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "createbigcannons"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"superheated",
+  "ingredients":[
+    {
+      "tag":"c:crushed_raw_iron"
+    }
+  ],
+  "results":[
+    {
+      "item":"createbigcannons:cast_iron_ingot"
+    }
+  ]
+}

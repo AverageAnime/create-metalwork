@@ -14,12 +14,12 @@
       "tag":"c:andesite_dusts"
     },
     {
-      "tag":"c:zinc_dusts"
+      "tag":"c:andesite_alloy_nuggets"
     }
   ],
   "results":[
     {
-      "amount":9000, "fluid":"createmetalwork:molten_andesite_alloy"
+      "amount":18000, "fluid":"createmetalwork:molten_andesite_alloy"
     }
   ]
 }

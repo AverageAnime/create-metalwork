@@ -10,7 +10,7 @@
   "type":"create:compacting",
   "ingredients":[
     {
-      "amount":9000,"fluid":"createmetalwork:molten_andesite_alloy"
+      "amount":9000,"fluidTag":"c:molten_andesite_alloy"
     }
   ],
   "results":[

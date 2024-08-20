@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_netherite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_netherite",
+      "required": false
+    },
+    {
+      "id": "indrev:molten_netherite_flowing",
+      "required": false
+    },
+    {
+      "id": "indrev:molten_netherite_still",
+      "required": false
+    },
+    {
+      "id": "molten_metals:flowing_molten_netherite",
+      "required": false
+    },
+    {
+      "id": "molten_metals:molten_netherite",
+      "required": false
+    }
+  ]
+}

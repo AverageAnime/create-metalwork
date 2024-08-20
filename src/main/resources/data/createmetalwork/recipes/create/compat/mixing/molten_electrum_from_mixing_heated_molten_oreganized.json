@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "oreganized"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":45000, "fluidTag":"c:molten_gold"
+    },
+    {
+      "amount":27000, "fluidTag":"c:molten_silver"
+    }
+  ],
+  "results":[
+    {
+      "amount":18000, "fluid":"createmetalwork:molten_electrum"
+    }
+  ]
+}

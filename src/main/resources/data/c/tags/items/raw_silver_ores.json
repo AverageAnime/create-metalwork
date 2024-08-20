@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "galosphere:raw_silver",
+      "required": false
+    },
+    {
+      "id": "oreganized:raw_silver",
+      "required": false
+    }
+  ]
+}

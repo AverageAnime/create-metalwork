@@ -1,3 +1,29 @@
+### ***1.0.7***
+
+#### General
+
+* Recipes now use FluidTags for better compatibility.
+* New mod compatibility:
+  * Create: Big Cannons
+  * Galosphere
+  * Oreganized
+* Expanded mod compatibility:
+  * Create: Dreams & Desires
+* Fix Molten Andesite Alloy recipe.
+* Fix ([#16](https://github.com/AverageAnime/create-metalwork/issues/16))
+
+#### Fabric - 1.20.1
+
+* Changes to how fluids & items are registered.
+* Expanded mod compatibility:
+  * Industrial Revolution
+* Fix Molten Enderium Bucket.
+* Fix ([#15](https://github.com/AverageAnime/create-metalwork/issues/15))
+
+#### Forge - 1.20.1
+
+* Fix ([#14](https://github.com/AverageAnime/create-metalwork/issues/14))
+
 ### ***1.0.6***
 
 * Content for Majrusz's Progressive Difficulty (Enderium)

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_ostrum",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_ostrum",
+      "required": false
+    }
+  ]
+}

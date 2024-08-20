@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "oreganized"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "tag":"c:lead_dusts"
+    }
+  ],
+  "results":[
+    {
+      "item":"oreganized:lead_ingot"
+    }
+  ]
+}

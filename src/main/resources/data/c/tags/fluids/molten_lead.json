@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "indrev:molten_lead_flowing",
+      "required": false
+    },
+    {
+      "id": "indrev:molten_lead_still",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "createbigcannons"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"superheated",
+  "ingredients":[
+    {
+      "tag":"c:crushed_raw_iron"
+    }
+  ],
+  "results":[
+    {
+      "amount":18000, "fluid":"createbigcannons:molten_cast_iron"
+    }
+  ]
+}

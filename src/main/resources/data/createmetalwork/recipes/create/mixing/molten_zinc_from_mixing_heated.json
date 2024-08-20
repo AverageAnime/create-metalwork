@@ -5,12 +5,6 @@
       "values": [
         "create"
       ]
-    },
-    {
-      "condition": "fabric:tags_populated",
-      "values": [
-        "c:zinc_ores"
-      ]
     }
   ],
   "type":"create:mixing",
@@ -22,8 +16,7 @@
   ],
   "results":[
     {
-      "amount":18000,
-      "fluid":"createmetalwork:molten_zinc"
+      "amount":18000, "fluid":"createmetalwork:molten_zinc"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "createbigcannons"
+      ]
+    }
+  ],
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+    {
+      "amount":9000, "fluidTag":"c:molten_iron"
+    },
+    {
+      "tag":"c:coal"
+    }
+  ],
+  "results":[
+    {
+      "amount":9000, "fluid":"createbigcannons:molten_steel"
+    }
+  ]
+}

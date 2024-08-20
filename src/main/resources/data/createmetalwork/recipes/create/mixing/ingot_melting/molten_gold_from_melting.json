@@ -5,15 +5,6 @@
       "values": [
         "create"
       ]
-    },
-    {
-      "condition": "fabric:not",
-      "value": {
-        "condition": "fabric:all_mods_loaded",
-        "values": [
-          "indrev"
-        ]
-      }
     }
   ],
   "type":"create:mixing",

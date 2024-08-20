@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_aquarium",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_aquarium",
+      "required": false
+    }
+  ]
+}

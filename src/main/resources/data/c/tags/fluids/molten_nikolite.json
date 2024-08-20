@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetalwork:flowing_molten_nikolite",
+      "required": false
+    },
+    {
+      "id": "createmetalwork:molten_nikolite",
+      "required": false
+    }
+  ]
+}

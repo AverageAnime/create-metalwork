@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "indrev"
+      ]
+    }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+    {
+      "amount":9000,"fluidTag":"c:molten_nikolite"
+    },
+    {
+      "item":"indrev:diamond_dust"
+    }
+  ],
+  "results":[
+    {
+      "item":"indrev:enriched_nikolite_ingot"
+    }
+  ]
+}
