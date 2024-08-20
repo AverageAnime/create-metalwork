@@ -4,7 +4,13 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "create_dd"
+        "indrev"
+      ]
+    },
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:silver_ingots"
       ]
     }
   ],
@@ -12,18 +18,12 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":27000, "fluidTag":"c:molten_copper"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_tin"
-    },
-    {
-      "tag":"c:zinc_dusts"
+      "tag":"c:silver_ingots"
     }
   ],
   "results":[
     {
-      "amount":45000, "fluid":"createmetalwork:molten_bronze"
+      "amount":9000, "fluid":"indrev:molten_silver_still"
     }
   ]
 }

@@ -4,7 +4,7 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "create_dd"
+        "indrev"
       ]
     }
   ],
@@ -12,18 +12,12 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":27000, "fluidTag":"c:molten_copper"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_tin"
-    },
-    {
-      "tag":"c:zinc_dusts"
+      "tag":"c:crushed_raw_tin"
     }
   ],
   "results":[
     {
-      "amount":45000, "fluid":"createmetalwork:molten_bronze"
+      "amount":18000, "fluid":"indrev:molten_tin_still"
     }
   ]
 }

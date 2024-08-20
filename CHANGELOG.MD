@@ -1,3 +1,14 @@
+### ***1.0.7 - Fix***
+
+#### General
+
+* Fix Create: Big Cannons recipes.
+
+#### Fabric
+
+* Fix Industrial Revolution fluid compatibility & recipes ([#17](https://github.com/AverageAnime/create-metalwork/issues/17)).
+* Fix Create: Big Cannons fluid compatibility.
+
 ### ***1.0.7***
 
 #### General
@@ -12,7 +23,7 @@
 * Fix Molten Andesite Alloy recipe.
 * Fix ([#16](https://github.com/AverageAnime/create-metalwork/issues/16))
 
-#### Fabric - 1.20.1
+#### Fabric
 
 * Changes to how fluids & items are registered.
 * Expanded mod compatibility:
@@ -20,7 +31,7 @@
 * Fix Molten Enderium Bucket.
 * Fix ([#15](https://github.com/AverageAnime/create-metalwork/issues/15))
 
-#### Forge - 1.20.1
+#### Forge
 
 * Fix ([#14](https://github.com/AverageAnime/create-metalwork/issues/14))
 

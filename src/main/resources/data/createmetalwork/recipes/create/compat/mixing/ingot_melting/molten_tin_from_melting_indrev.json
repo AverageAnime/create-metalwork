@@ -12,15 +12,12 @@
   "heatRequirement":"heated",
   "ingredients":[
     {
-      "amount":9000, "fluidTag":"c:molten_iron"
-    },
-    {
-      "tag":"c:coal_dusts"
+      "tag":"c:tin_ingots"
     }
   ],
   "results":[
     {
-      "amount":9000, "fluid":"createmetalwork:molten_steel"
+      "amount":9000, "fluid":"indrev:molten_tin_still"
     }
   ]
 }

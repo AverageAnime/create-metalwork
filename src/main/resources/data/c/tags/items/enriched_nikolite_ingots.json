@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "indrev:enriched_nikolite_ingot",
+      "required": false
+    }
+  ]
+}

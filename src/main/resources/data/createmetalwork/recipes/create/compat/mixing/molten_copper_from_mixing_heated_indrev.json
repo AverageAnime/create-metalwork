@@ -17,8 +17,7 @@
   ],
   "results":[
     {
-      "amount":18000,
-      "fluid":"indrev:molten_copper_still"
+      "amount":18000, "fluid":"indrev:molten_copper_still"
     }
   ]
 }

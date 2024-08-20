@@ -4,7 +4,8 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "create_dd"
+        "create_dd",
+        "createbigcannons"
       ]
     }
   ],
@@ -23,7 +24,7 @@
   ],
   "results":[
     {
-      "amount":45000, "fluid":"createmetalwork:molten_bronze"
+      "amount":45000, "fluid":"createbigcannons:molten_bronze"
     }
   ]
 }
