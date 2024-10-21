@@ -19,6 +19,9 @@ public class ModItems {
     public static void registerModItems() {
         CreateMetalwork.LOGGER.info("Registering Items for " + CreateMetalwork.MOD_ID);
     }
+
+    public static boolean isCrushedRawMythrilLoaded = false;
+
     public static void registerItem(){
 
         final Item CRUSHED_ANDESITE = registerItem("crushed_andesite", new Item(new FabricItemSettings()));
@@ -26,9 +29,6 @@ public class ModItems {
 
         final Item CRUSHED_NETHERITE_SCRAP = registerItem("crushed_netherite_scrap", new Item(new FabricItemSettings()));
         ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_NETHERITE_SCRAP));
-
-        final Item CRUSHED_RAW_MYTHRIL = registerItem("crushed_raw_mythril", new Item(new FabricItemSettings()));
-        ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_MYTHRIL));
 
         if (FabricLoader.getInstance().isModLoaded("ad_astra")) {
 
@@ -43,8 +43,10 @@ public class ModItems {
 
         }
 
-        if (FabricLoader.getInstance().isModLoaded("create_dd")) {
-
+        if (!isCrushedRawMythrilLoaded && (FabricLoader.getInstance().isModLoaded("mythicmetals") || FabricLoader.getInstance().isModLoaded("createbigcannons"))) {
+            final Item CRUSHED_RAW_MYTHRIL = registerItem("crushed_raw_mythril", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_MYTHRIL));
+            isCrushedRawMythrilLoaded = true;
         }
 
         if (FabricLoader.getInstance().isModLoaded("createbigcannons")) {
