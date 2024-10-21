@@ -1,0 +1,36 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "create_simple_ore_doubling"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_scrap"
+        }
+    ],
+    "processingTime": 700,
+    "results": [
+        {
+            "count": 2,
+            "item": "createmetalwork:crushed_netherite_scrap"
+        },
+        {
+            "chance": 0.5,
+            "item": "createmetalwork:crushed_netherite_scrap"
+        },
+        {
+            "item": "create_simple_ore_doubling:slag"
+        },
+        {
+            "chance": 0.5,
+            "item": "create_simple_ore_doubling:slag"
+        }
+    ]
+}

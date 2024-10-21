@@ -1,0 +1,29 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals",
+                "create_simple_ore_doubling"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:raw_stormyx_ores"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createmetalwork:crushed_raw_stormyx"
+        },
+        {
+            "chance": 0.05,
+            "item": "create_simple_ore_doubling:slag"
+        }
+    ]
+}
