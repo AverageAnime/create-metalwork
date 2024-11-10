@@ -1,9 +1,9 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "create_dd:mithril_ingot",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "create_dd:mithril_ingot",
+            "required": false
+        }
+    ]
 }

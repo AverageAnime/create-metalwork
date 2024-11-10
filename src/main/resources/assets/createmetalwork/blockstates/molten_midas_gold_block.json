@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "createmetalwork:block/molten_midas_gold_block"
+    "variants": {
+        "": {
+            "model": "createmetalwork:block/molten_midas_gold_block"
+        }
     }
-  }
 }

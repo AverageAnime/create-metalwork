@@ -1,26 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "createbigcannons"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":4500, "fluidTag":"c:molten_netherite"
-    },
-    {
-      "amount":18000, "fluidTag":"c:molten_steel"
-    }
-  ],
-  "results":[
-    {
-      "amount":81000, "fluid":"createbigcannons:molten_nethersteel"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "createbigcannons"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 4500,
+            "fluidTag": "c:molten_netherite"
+        },
+        {
+            "amount": 18000,
+            "fluidTag": "c:molten_steel"
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "createbigcannons:molten_nethersteel"
+        }
+    ]
 }

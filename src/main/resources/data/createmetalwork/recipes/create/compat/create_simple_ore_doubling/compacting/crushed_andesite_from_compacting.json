@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "create_simple_ore_doubling"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 4050
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createmetalwork:crushed_andesite"
+        },
+        {
+            "chance": 0.05,
+            "item": "create_simple_ore_doubling:slag"
+        }
+    ]
+}

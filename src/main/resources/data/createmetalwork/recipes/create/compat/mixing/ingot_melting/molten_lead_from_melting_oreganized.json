@@ -1,23 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "oreganized"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:lead_ingots"
-    }
-  ],
-  "results":[
-    {
-      "amount":9000, "fluid":"oreganized:molten_lead"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "oreganized"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:lead_ingots"
+        }
+    ],
+    "results": [
+        {
+            "amount": 9000,
+            "fluid": "oreganized:molten_lead"
+        }
+    ]
 }

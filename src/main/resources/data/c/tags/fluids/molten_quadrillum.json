@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_quadrillum",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_quadrillum",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_quadrillum",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_quadrillum",
+            "required": false
+        }
+    ]
 }

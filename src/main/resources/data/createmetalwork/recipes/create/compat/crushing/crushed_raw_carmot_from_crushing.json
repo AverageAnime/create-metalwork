@@ -1,27 +1,27 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "mythicmetals"
-      ]
-    }
-  ],
-  "type": "create:crushing",
-  "ingredients": [
-    {
-      "tag": "c:raw_carmot_ores"
-    }
-  ],
-  "processingTime": 400,
-  "results": [
-    {
-      "item": "createmetalwork:crushed_raw_carmot"
-    },
-    {
-      "chance": 0.75,
-      "item": "create:experience_nugget"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals"
+            ]
+        }
+    ],
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "c:raw_carmot_ores"
+        }
+    ],
+    "processingTime": 400,
+    "results": [
+        {
+            "item": "createmetalwork:crushed_raw_carmot"
+        },
+        {
+            "chance": 0.75,
+            "item": "create:experience_nugget"
+        }
+    ]
 }

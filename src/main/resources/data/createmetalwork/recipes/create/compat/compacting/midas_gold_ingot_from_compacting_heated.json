@@ -1,23 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "mythicmetals"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:midas_gold_dusts"
-    }
-  ],
-  "results":[
-    {
-      "item":"mythicmetals:midas_gold_ingot"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:midas_gold_dusts"
+        }
+    ],
+    "results": [
+        {
+            "item": "mythicmetals:midas_gold_ingot"
+        }
+    ]
 }

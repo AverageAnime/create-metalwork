@@ -1,14 +1,13 @@
 {
-  "required": true,
-  "package": "net.averageanime.createmetalwork.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-    "BackgroundRendererMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "refmap": "create-metalwork-refmap.json"
+    "required": true,
+    "package": "net.averageanime.createmetalwork.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [],
+    "client": [
+        "BackgroundRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "refmap": "create-metalwork-refmap.json"
 }

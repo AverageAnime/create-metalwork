@@ -39,7 +39,7 @@ public abstract class MoltenCaloriteFluid extends FlowableFluid {
 
     @Override
     protected int getLevelDecreasePerBlock(WorldView world) {
-        return 3;
+        return 2;
     }
 
     @Override

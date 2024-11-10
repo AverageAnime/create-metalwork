@@ -1,25 +1,26 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:crushed_raw_copper"
-    },
-    {
-      "tag":"c:crushed_raw_zinc"
-    }
-  ],
-  "results":[
-    {
-      "amount":18000, "fluid":"createmetalwork:molten_brass"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_copper"
+        },
+        {
+            "tag": "c:crushed_raw_zinc"
+        }
+    ],
+    "results": [
+        {
+            "amount": 36000,
+            "fluid": "createmetalwork:molten_brass"
+        }
+    ]
 }

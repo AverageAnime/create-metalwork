@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_orichadium",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_orichadium",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_orichadium",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_orichadium",
+            "required": false
+        }
+    ]
 }

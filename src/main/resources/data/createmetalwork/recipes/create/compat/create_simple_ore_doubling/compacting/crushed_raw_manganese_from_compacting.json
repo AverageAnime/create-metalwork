@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals",
+                "create_simple_ore_doubling"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:raw_manganese_ores"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 4050
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createmetalwork:crushed_raw_manganese"
+        },
+        {
+            "chance": 0.05,
+            "item": "create_simple_ore_doubling:slag"
+        }
+    ]
+}

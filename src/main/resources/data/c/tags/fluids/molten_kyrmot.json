@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_kyrmot",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_kyrmot",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_kyrmot",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_kyrmot",
+            "required": false
+        }
+    ]
 }

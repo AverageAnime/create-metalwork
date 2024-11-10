@@ -1,21 +1,21 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "oreganized:flowing_molten_lead",
-      "required": false
-    },
-    {
-      "id": "oreganized:molten_lead",
-      "required": false
-    },
-    {
-      "id": "indrev:molten_lead_flowing",
-      "required": false
-    },
-    {
-      "id": "indrev:molten_lead_still",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "oreganized:flowing_molten_lead",
+            "required": false
+        },
+        {
+            "id": "oreganized:molten_lead",
+            "required": false
+        },
+        {
+            "id": "indrev:molten_lead_flowing",
+            "required": false
+        },
+        {
+            "id": "indrev:molten_lead_still",
+            "required": false
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 {
-  "type": "liquidburner:liquidburning",
-  "fluid": "createmetalwork:molten_morkite",
-  "burntime": "20000",
-  "superheattime" : "0"
+    "type": "liquidburner:liquidburning",
+    "fluid": "createmetalwork:molten_morkite",
+    "burntime": "20000",
+    "superheattime": "0"
 }

@@ -1,3 +1,19 @@
+### ***1.0.8***
+
+#### General
+* Add recipe compatibility for Create: Simple Ore Doubling. 
+* Recipe fixes/changes  including ([#18](https://github.com/AverageAnime/create-metalwork/issues/18))([#19](https://github.com/AverageAnime/create-metalwork/issues/19))([#20](https://github.com/AverageAnime/create-metalwork/issues/20))
+* Add missing fluid tags.
+* Adjust fluid properties to be slightly more like lava.
+
+#### Fabric
+* Compatibility for BetterEnd & BetterNether. ([#13](https://github.com/AverageAnime/create-metalwork/issues/13))
+
+#### Forge
+* Change creative tab title to translatable string. ([#21](https://github.com/AverageAnime/create-metalwork/issues/21))
+* Compatibility for Create: Northstar & Create: Creating Space. ([#22](https://github.com/AverageAnime/create-metalwork/issues/22))
+
+
 ### ***1.0.7 - Fix***
 
 #### General

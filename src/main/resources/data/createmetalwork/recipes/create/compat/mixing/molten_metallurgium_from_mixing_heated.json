@@ -1,29 +1,32 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "mythicmetals"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:crushed_unobtainium"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_mythantite"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_orichadium"
-    }
-  ],
-  "results":[
-    {
-      "amount":9000, "fluid":"createmetalwork:molten_metallurgium"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:crushed_unobtainium"
+        },
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_mythantite"
+        },
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_orichadium"
+        }
+    ],
+    "results": [
+        {
+            "amount": 9000,
+            "fluid": "createmetalwork:molten_metallurgium"
+        }
+    ]
 }

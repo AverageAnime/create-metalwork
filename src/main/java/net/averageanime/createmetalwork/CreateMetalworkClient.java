@@ -14,6 +14,30 @@ public class CreateMetalworkClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+// Better End
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_THALLASIUM, ModFluids.FLOWING_MOLTEN_THALLASIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_thallasium_still"),
+                new Identifier("createmetalwork:block/molten_thallasium_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_TERMINITE, ModFluids.FLOWING_MOLTEN_TERMINITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_terminite_still"),
+                new Identifier("createmetalwork:block/molten_terminite_flow")
+        ));
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_AETERNIUM, ModFluids.FLOWING_MOLTEN_AETERNIUM, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_aeternium_still"),
+                new Identifier("createmetalwork:block/molten_aeternium_flow")
+        ));
+
+// Better Nether
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_CINCINNASITE, ModFluids.FLOWING_MOLTEN_CINCINNASITE, new SimpleFluidRenderHandler(
+                new Identifier("createmetalwork:block/molten_cincinnasite_still"),
+                new Identifier("createmetalwork:block/molten_cincinnasite_flow")
+        ));
+
 // Majrusz's Progressive Difficulty
 
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_MOLTEN_ENDERIUM, ModFluids.FLOWING_MOLTEN_ENDERIUM, new SimpleFluidRenderHandler(

@@ -1,29 +1,29 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_gold",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_gold",
-      "required": false
-    },
-    {
-      "id": "indrev:molten_gold_flowing",
-      "required": false
-    },
-    {
-      "id": "indrev:molten_gold_still",
-      "required": false
-    },
-    {
-      "id": "molten_metals:flowing_molten_gold",
-      "required": false
-    },
-    {
-      "id": "molten_metals:molten_gold",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_gold",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_gold",
+            "required": false
+        },
+        {
+            "id": "indrev:molten_gold_flowing",
+            "required": false
+        },
+        {
+            "id": "indrev:molten_gold_still",
+            "required": false
+        },
+        {
+            "id": "molten_metals:flowing_molten_gold",
+            "required": false
+        },
+        {
+            "id": "molten_metals:molten_gold",
+            "required": false
+        }
+    ]
 }

@@ -1,25 +1,25 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:andesite_dusts"
-    },
-    {
-      "tag":"c:andesite_alloy_nuggets"
-    }
-  ],
-  "results":[
-    {
-      "item":"create:andesite_alloy"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:andesite_dusts"
+        },
+        {
+            "tag": "c:andesite_alloy_nuggets"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:andesite_alloy"
+        }
+    ]
 }

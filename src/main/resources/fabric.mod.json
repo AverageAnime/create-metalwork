@@ -1,40 +1,39 @@
 {
-	"schemaVersion": 1,
-	"id": "createmetalwork",
-	"version": "1.0.7",
-	"name": "Create: Metalwork",
-	"description": "An Addon for Create that introduces new fluids and crushed ores that can be used to increase the number of ingots received per ore.",
-	"authors": [
-		"average_anime"
-	],
-	"contact": {
-		"homepage": "",
-		"sources": "https://github.com/AverageAnime/create-metalwork"
-	},
-	"license": "GPLv3",
-	"icon": "assets/createmetalwork/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.averageanime.createmetalwork.CreateMetalwork"
-		],
-		"client": [
-			"net.averageanime.createmetalwork.CreateMetalworkClient"
-		],
-		"fabric-datagen": [
-			"net.averageanime.createmetalwork.CreateMetalworkDataGenerator"
-		]
-	},
-	"mixins": [
-      "createmetalwork.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.14.24",
-		"minecraft": "~1.20.1",
-		"java": ">=17"
-
-	},
-	"suggests": {
-		"": "*"
-	}
+    "schemaVersion": 1,
+    "id": "createmetalwork",
+    "version": "1.0.8",
+    "name": "Create: Metalwork",
+    "description": "An Addon for Create that introduces new fluids and crushed ores that can be used to increase the number of ingots received per ore.",
+    "authors": [
+        "average_anime"
+    ],
+    "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-metalwork",
+        "sources": "https://github.com/AverageAnime/create-metalwork"
+    },
+    "license": "GPLv3",
+    "icon": "assets/createmetalwork/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.averageanime.createmetalwork.CreateMetalwork"
+        ],
+        "client": [
+            "net.averageanime.createmetalwork.CreateMetalworkClient"
+        ],
+        "fabric-datagen": [
+            "net.averageanime.createmetalwork.CreateMetalworkDataGenerator"
+        ]
+    },
+    "mixins": [
+        "createmetalwork.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.24",
+        "minecraft": "~1.20.1",
+        "java": ">=17"
+    },
+    "suggests": {
+        "": "*"
+    }
 }

@@ -1,21 +1,21 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_zinc",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_zinc",
-      "required": false
-    },
-    {
-      "id": "molten_metals:flowing_molten_zinc",
-      "required": false
-    },
-    {
-      "id": "molten_metals:molten_zinc",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_zinc",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_zinc",
+            "required": false
+        },
+        {
+            "id": "molten_metals:flowing_molten_zinc",
+            "required": false
+        },
+        {
+            "id": "molten_metals:molten_zinc",
+            "required": false
+        }
+    ]
 }

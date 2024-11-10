@@ -4,8 +4,13 @@
             "condition": "fabric:all_mods_loaded",
             "values": [
                 "create",
-                "indrev",
                 "create_simple_ore_doubling"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_tungsten_ores"
             ]
         }
     ],
@@ -18,11 +23,11 @@
     ],
     "results": [
         {
-            "count": 2,
+            "count": 3,
             "item": "createmetalwork:crushed_raw_tungsten"
         },
         {
-            "chance": 0.05,
+            "chance": 0.15,
             "item": "create_simple_ore_doubling:slag"
         }
     ]

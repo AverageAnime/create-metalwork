@@ -1,9 +1,9 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:crushed_raw_orichalcum",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:crushed_raw_orichalcum",
+            "required": false
+        }
+    ]
 }

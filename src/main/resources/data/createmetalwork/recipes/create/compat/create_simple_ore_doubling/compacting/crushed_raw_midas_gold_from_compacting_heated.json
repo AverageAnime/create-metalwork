@@ -18,11 +18,11 @@
     ],
     "results": [
         {
-            "count": 2,
+            "count": 3,
             "item": "createmetalwork:crushed_raw_midas_gold"
         },
         {
-            "chance": 0.05,
+            "chance": 0.15,
             "item": "create_simple_ore_doubling:slag"
         }
     ]

@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_desh",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_desh",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_desh",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_desh",
+            "required": false
+        }
+    ]
 }

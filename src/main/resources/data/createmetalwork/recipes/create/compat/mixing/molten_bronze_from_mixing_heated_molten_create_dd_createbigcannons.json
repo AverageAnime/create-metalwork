@@ -1,30 +1,33 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "create_dd",
-        "createbigcannons"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":27000, "fluidTag":"c:molten_copper"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_tin"
-    },
-    {
-      "tag":"c:zinc_dusts"
-    }
-  ],
-  "results":[
-    {
-      "amount":45000, "fluid":"createbigcannons:molten_bronze"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "create_dd",
+                "createbigcannons"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 27000,
+            "fluidTag": "c:molten_copper"
+        },
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_tin"
+        },
+        {
+            "tag": "c:zinc_dusts"
+        }
+    ],
+    "results": [
+        {
+            "amount": 36000,
+            "fluid": "createbigcannons:molten_bronze"
+        }
+    ]
 }

@@ -1,9 +1,9 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:crushed_raw_desh",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:crushed_raw_desh",
+            "required": false
+        }
+    ]
 }

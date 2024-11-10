@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "ad_astra"
+            ]
+        }
+    ],
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "c:calorite_ores"
+        }
+    ],
+    "processingTime": 400,
+    "results": [
+        {
+            "item": "createmetalwork:crushed_raw_calorite"
+        },
+        {
+            "chance": 0.75,
+            "item": "createmetalwork:crushed_raw_calorite"
+        },
+        {
+            "chance": 0.75,
+            "item": "create:experience_nugget"
+        }
+    ]
+}

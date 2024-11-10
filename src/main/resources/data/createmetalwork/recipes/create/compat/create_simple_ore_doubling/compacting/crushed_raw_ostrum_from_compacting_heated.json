@@ -13,16 +13,16 @@
     "heatRequirement": "heated",
     "ingredients": [
         {
-            "tag": "c:raw_ostrum"
+            "tag": "c:raw_ostrum_ores"
         }
     ],
     "results": [
         {
-            "count": 2,
+            "count": 3,
             "item": "createmetalwork:crushed_raw_ostrum"
         },
         {
-            "chance": 0.05,
+            "chance": 0.15,
             "item": "create_simple_ore_doubling:slag"
         }
     ]

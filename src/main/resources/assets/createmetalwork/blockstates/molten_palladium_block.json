@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "createmetalwork:block/molten_palladium_block"
+    "variants": {
+        "": {
+            "model": "createmetalwork:block/molten_palladium_block"
+        }
     }
-  }
 }

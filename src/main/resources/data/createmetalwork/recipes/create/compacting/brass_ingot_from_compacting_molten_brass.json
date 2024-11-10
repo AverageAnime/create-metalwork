@@ -1,21 +1,22 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "amount":9000,"fluidTag":"c:molten_brass"
-    }
-  ],
-  "results":[
-    {
-      "item":"create:brass_ingot"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_brass"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:brass_ingot"
+        }
+    ]
 }

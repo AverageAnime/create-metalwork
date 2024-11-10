@@ -1,0 +1,37 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "create_simple_ore_doubling"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_tin_ores"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:raw_tin_ores"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 4050
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "create:crushed_raw_tin"
+        },
+        {
+            "chance": 0.05,
+            "item": "create_simple_ore_doubling:slag"
+        }
+    ]
+}

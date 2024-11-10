@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "betterend"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:terminite_ingots"
+        }
+    ],
+    "results": [
+        {
+            "amount": 9000,
+            "fluid": "createmetalwork:molten_terminite"
+        }
+    ]
+}

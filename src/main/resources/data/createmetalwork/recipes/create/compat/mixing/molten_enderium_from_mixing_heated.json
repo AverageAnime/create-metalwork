@@ -1,41 +1,42 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "majruszsdifficulty"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "item":"minecraft:ender_eye"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    },
-    {
-      "tag":"c:crushed_enderium_shard"
-    }
-  ],
-  "results":[
-    {
-      "amount":18000, "fluid":"createmetalwork:molten_enderium"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "majruszsdifficulty"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:ender_eye"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        },
+        {
+            "tag": "c:crushed_enderium_shard"
+        }
+    ],
+    "results": [
+        {
+            "amount": 18000,
+            "fluid": "createmetalwork:molten_enderium"
+        }
+    ]
 }

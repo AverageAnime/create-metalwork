@@ -1,26 +1,29 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "indrev"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":9000, "fluidTag":"c:molten_gold"
-    },
-    {
-      "amount":9000, "fluidTag":"c:molten_silver"
-    }
-  ],
-  "results":[
-    {
-      "amount":18000, "fluid":"createmetalwork:molten_electrum"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "indrev"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_gold"
+        },
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_silver"
+        }
+    ],
+    "results": [
+        {
+            "amount": 18000,
+            "fluid": "createmetalwork:molten_electrum"
+        }
+    ]
 }

@@ -34,6 +34,34 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
     private static void $modifyFogColors(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
         FluidState state = level.getFluidState(camera.getBlockPos());
 
+// Better End
+
+        if (ModFluids.isMoltenThallasium(state)) {
+            red = (float) 106 / 255;
+            green = (float) 205 / 255;
+            blue = (float) 255 / 255;
+        }
+
+        if (ModFluids.isMoltenTerminite(state)) {
+            red = (float) 88 / 255;
+            green = (float) 194 / 255;
+            blue = (float) 255 / 255;
+        }
+
+        if (ModFluids.isMoltenAeternium(state)) {
+            red = (float) 105 / 255;
+            green = (float) 149 / 255;
+            blue = (float) 172 / 255;
+        }
+
+// Better Nether
+
+        if (ModFluids.isMoltenCincinnasite(state)) {
+            red = (float) 255 / 255;
+            green = (float) 166 / 255;
+            blue = (float) 55 / 255;
+        }
+
 // Majrusz's Progressive Difficulty
 
         if (ModFluids.isMoltenEnderium(state)) {
@@ -286,6 +314,34 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
     private static void $applyFog(Camera camera, FogType fogType, float viewDistance, boolean thickFog, float tickDelta, CallbackInfo ci) {
         assert MinecraftClient.getInstance().world != null;
         FluidState state = MinecraftClient.getInstance().world.getFluidState(camera.getBlockPos());
+
+// Better End
+
+        if (ModFluids.isMoltenThallasium(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+        if (ModFluids.isMoltenTerminite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+        if (ModFluids.isMoltenAeternium(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
+
+// Better Nether
+
+        if (ModFluids.isMoltenCincinnasite(state)) {
+            RenderSystem.setShaderFogStart(-1);
+            RenderSystem.setShaderFogEnd(1);
+            ci.cancel();
+        }
 
 // Vanilla Materials
 

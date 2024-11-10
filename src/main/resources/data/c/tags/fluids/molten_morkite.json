@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_morkite",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_morkite",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_morkite",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_morkite",
+            "required": false
+        }
+    ]
 }

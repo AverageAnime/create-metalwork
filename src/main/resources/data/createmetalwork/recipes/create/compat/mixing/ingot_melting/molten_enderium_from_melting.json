@@ -1,23 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "majruszsdifficulty"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "item":"majruszsdifficulty:enderium_ingot"
-    }
-  ],
-  "results":[
-    {
-      "amount":9000, "fluid":"createmetalwork:molten_enderium"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "majruszsdifficulty"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "majruszsdifficulty:enderium_ingot"
+        }
+    ],
+    "results": [
+        {
+            "amount": 9000,
+            "fluid": "createmetalwork:molten_enderium"
+        }
+    ]
 }

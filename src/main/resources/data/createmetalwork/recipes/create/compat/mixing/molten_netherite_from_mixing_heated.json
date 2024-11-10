@@ -1,44 +1,45 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "indrev"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:gold_dusts"
-    },
-    {
-      "tag":"c:gold_dusts"
-    },
-    {
-      "tag":"c:gold_dusts"
-    },
-    {
-      "tag":"c:gold_dusts"
-    },
-    {
-      "tag":"c:netherite_dusts"
-    },
-    {
-      "tag":"c:netherite_dusts"
-    },
-    {
-      "tag":"c:netherite_dusts"
-    },
-    {
-      "tag":"c:netherite_dusts"
-    }
-  ],
-  "results":[
-    {
-      "amount":18000, "fluid":"indrev:molten_netherite_still"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "indrev"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:gold_dusts"
+        },
+        {
+            "tag": "c:gold_dusts"
+        },
+        {
+            "tag": "c:gold_dusts"
+        },
+        {
+            "tag": "c:gold_dusts"
+        },
+        {
+            "tag": "c:netherite_dusts"
+        },
+        {
+            "tag": "c:netherite_dusts"
+        },
+        {
+            "tag": "c:netherite_dusts"
+        },
+        {
+            "tag": "c:netherite_dusts"
+        }
+    ],
+    "results": [
+        {
+            "amount": 18000,
+            "fluid": "indrev:molten_netherite_still"
+        }
+    ]
 }

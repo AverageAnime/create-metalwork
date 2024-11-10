@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-  "layer0": "createmetalwork:item/crushed_raw_ostrum"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "createmetalwork:item/crushed_raw_ostrum"
+    }
 }

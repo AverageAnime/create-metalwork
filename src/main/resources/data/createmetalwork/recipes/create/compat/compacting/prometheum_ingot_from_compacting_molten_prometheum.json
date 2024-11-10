@@ -1,22 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "mythicmetals"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "ingredients":[
-    {
-      "amount":9000, "fluidTag":"c:molten_prometheum"
-    }
-  ],
-  "results":[
-    {
-      "item":"mythicmetals:prometheum_ingot"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_prometheum"
+        }
+    ],
+    "results": [
+        {
+            "item": "mythicmetals:prometheum_ingot"
+        }
+    ]
 }

@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_midas_gold",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_midas_gold",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_midas_gold",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_midas_gold",
+            "required": false
+        }
+    ]
 }

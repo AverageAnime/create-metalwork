@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_mythril",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_mythril",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_mythril",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_mythril",
+            "required": false
+        }
+    ]
 }

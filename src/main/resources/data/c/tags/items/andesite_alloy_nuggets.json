@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "minecraft:iron_nugget",
-      "required": false
-    },
-    {
-      "id": "create:zinc_nugget",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "minecraft:iron_nugget",
+            "required": false
+        },
+        {
+            "id": "create:zinc_nugget",
+            "required": false
+        }
+    ]
 }

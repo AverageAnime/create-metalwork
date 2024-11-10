@@ -1,31 +1,31 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "majruszsdifficulty"
-      ]
-    }
-  ],
-  "type": "create:crushing",
-  "ingredients": [
-    {
-      "item": "majruszsdifficulty:enderium_shard"
-    }
-  ],
-  "processingTime": 500,
-  "results": [
-    {
-      "item": "createmetalwork:crushed_enderium_shard"
-    },
-    {
-      "chance": 0.55,
-      "item": "createmetalwork:crushed_enderium_shard"
-    },
-    {
-      "chance": 0.75,
-      "item": "create:experience_nugget"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "majruszsdifficulty"
+            ]
+        }
+    ],
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "majruszsdifficulty:enderium_shard"
+        }
+    ],
+    "processingTime": 500,
+    "results": [
+        {
+            "item": "createmetalwork:crushed_enderium_shard"
+        },
+        {
+            "chance": 0.55,
+            "item": "createmetalwork:crushed_enderium_shard"
+        },
+        {
+            "chance": 0.75,
+            "item": "create:experience_nugget"
+        }
+    ]
 }

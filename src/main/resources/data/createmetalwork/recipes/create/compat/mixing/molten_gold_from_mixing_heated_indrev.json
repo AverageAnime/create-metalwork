@@ -1,23 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "indrev"
-      ]
-    }
-  ],
-  "type":"create:mixing",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "tag":"c:crushed_raw_gold"
-    }
-  ],
-  "results":[
-    {
-      "amount":18000, "fluid":"indrev:molten_gold_still"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "indrev"
+            ]
+        }
+    ],
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "c:crushed_raw_gold"
+        }
+    ],
+    "results": [
+        {
+            "amount": 18000,
+            "fluid": "indrev:molten_gold_still"
+        }
+    ]
 }

@@ -10,7 +10,7 @@
         }
     ],
     "type": "create:compacting",
-    "heatRequirement": "heated",
+    "heatRequirement": "superheated",
     "ingredients": [
         {
             "tag": "c:raw_runite_ores"
@@ -18,11 +18,11 @@
     ],
     "results": [
         {
-            "count": 2,
+            "count": 3,
             "item": "createmetalwork:crushed_raw_runite"
         },
         {
-            "chance": 0.05,
+            "chance": 0.15,
             "item": "create_simple_ore_doubling:slag"
         }
     ]

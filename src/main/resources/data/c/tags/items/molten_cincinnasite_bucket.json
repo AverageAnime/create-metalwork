@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:molten_cincinnasite_bucket",
+            "required": false
+        }
+    ]
+}

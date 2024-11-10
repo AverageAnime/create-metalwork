@@ -1,13 +1,13 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "createmetalwork:flowing_molten_prometheum",
-      "required": false
-    },
-    {
-      "id": "createmetalwork:molten_prometheum",
-      "required": false
-    }
-  ]
+    "replace": false,
+    "values": [
+        {
+            "id": "createmetalwork:flowing_molten_prometheum",
+            "required": false
+        },
+        {
+            "id": "createmetalwork:molten_prometheum",
+            "required": false
+        }
+    ]
 }

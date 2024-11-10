@@ -1,37 +1,37 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "mythicmetals"
-      ]
-    }
-  ],
-  "type": "create:crushing",
-  "ingredients": [
-    {
-      "tag": "c:unobtainium_ores"
-    }
-  ],
-  "processingTime": 700,
-  "results": [
-    {
-      "item": "createmetalwork:crushed_unobtainium"
-    },
-    {
-      "item": "createmetalwork:crushed_unobtainium"
-    },
-    {
-      "chance": 0.55,
-      "item": "createmetalwork:crushed_unobtainium"
-    },
-    {
-      "item": "create:experience_nugget"
-    },
-    {
-      "chance": 0.55,
-      "item": "create:experience_nugget"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "mythicmetals"
+            ]
+        }
+    ],
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "tag": "c:unobtainium_ores"
+        }
+    ],
+    "processingTime": 700,
+    "results": [
+        {
+            "item": "createmetalwork:crushed_unobtainium"
+        },
+        {
+            "item": "createmetalwork:crushed_unobtainium"
+        },
+        {
+            "chance": 0.55,
+            "item": "createmetalwork:crushed_unobtainium"
+        },
+        {
+            "item": "create:experience_nugget"
+        },
+        {
+            "chance": 0.55,
+            "item": "create:experience_nugget"
+        }
+    ]
 }

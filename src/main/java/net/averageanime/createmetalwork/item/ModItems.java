@@ -127,5 +127,19 @@ public class ModItems {
 
         }
 
+        if (FabricLoader.getInstance().isModLoaded("betterend")) {
+
+            final Item CRUSHED_RAW_THALLASIUM = registerItem("crushed_raw_thallasium", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_THALLASIUM));
+
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("betternether")) {
+
+            final Item CRUSHED_RAW_CINCINNASITE = registerItem("crushed_raw_cincinnasite", new Item(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateMetalwork.GROUP).register(entries -> entries.add(CRUSHED_RAW_CINCINNASITE));
+
+        }
+
     }
 }

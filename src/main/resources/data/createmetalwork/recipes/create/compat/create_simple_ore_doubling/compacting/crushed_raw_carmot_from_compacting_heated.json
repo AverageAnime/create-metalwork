@@ -9,6 +9,7 @@
         }
     ],
     "type": "create:compacting",
+    "heatRequirement": "heated",
     "ingredients": [
         {
             "tag": "c:raw_carmot_ores"
@@ -16,10 +17,11 @@
     ],
     "results": [
         {
+            "count": 3,
             "item": "createmetalwork:crushed_raw_carmot"
         },
         {
-            "chance": 0.05,
+            "chance": 0.15,
             "item": "create_simple_ore_doubling:slag"
         }
     ]

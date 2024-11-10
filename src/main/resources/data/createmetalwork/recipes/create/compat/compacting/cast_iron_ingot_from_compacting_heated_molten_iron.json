@@ -1,23 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "create",
-        "createbigcannons"
-      ]
-    }
-  ],
-  "type":"create:compacting",
-  "heatRequirement":"heated",
-  "ingredients":[
-    {
-      "amount":9000, "fluidTag":"c:molten_iron"
-    }
-  ],
-  "results":[
-    {
-      "item":"createbigcannons:cast_iron_ingot"
-    }
-  ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "createbigcannons"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 9000,
+            "fluidTag": "c:molten_iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "createbigcannons:cast_iron_ingot"
+        }
+    ]
 }
